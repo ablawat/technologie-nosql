@@ -27,3 +27,49 @@ head -n 6034195 train-tmp.csv > train-modified.csv
 ```
 
 Po tej operacji plik `train-modified.csv` jest w odpowiednim formacie dla operacji importowania do obu systemów baz danych.
+
+##Importowanie danych do MongoDB
+
+Aby wykonać import danych do bazy MongoDB należy użyć polecenia `mongoimport` z odpowiednimi opcjami. Dodatkowo polecenie importu zostało poprzedzone poleceniem `time` mierzącym czas wykonania importu.
+
+###Import
+
+Plik `train-modified.csv` importujemy do bazy danych poleceniem:
+
+```sh
+time mongoimport -d train -c train --type csv --headerline --file train-modified.csv
+connected to: 127.0.0.1
+Sun Nov  9 21:15:45.035         Progress: 25525519/7253916754   0%
+Sun Nov  9 21:15:45.035             21100   7033/second
+Sun Nov  9 21:15:48.000         Progress: 74346367/7253916754   1%
+Sun Nov  9 21:15:48.000             61800   10300/second
+...
+Sun Nov  9 21:27:31.000         Progress: 7189920626/7253916754 99%
+Sun Nov  9 21:27:31.000             5980900 8435/second
+Sun Nov  9 21:27:34.001         Progress: 7232691044/7253916754 99%
+Sun Nov  9 21:27:34.001             6016600 8450/second
+Sun Nov  9 21:27:35.473 check 9 6034195
+Sun Nov  9 21:27:35.509 imported 6034194 objects
+```
+
+###Czas wykonania
+
+```sh
+real   11m54.168s
+user    1m32.571s
+sys     0m12.549s
+```
+
+Całkowity czas trwania importu do bazy trwał około 11 minut i 54 sekund.
+
+###Test
+
+```sh
+mongo
+MongoDB shell version: 2.4.9
+connecting to: test
+> use train
+switched to db train
+> db.train.count()
+6034194
+```
