@@ -37,7 +37,7 @@ Aby wykonać import danych do bazy MongoDB należy użyć polecenia `mongoimport
 Plik `train-modified.csv` importujemy do bazy danych poleceniem:
 
 ```sh
-time mongoimport -d train -c train --type csv --headerline --file train-modified.csv
+user@host:~$ time mongoimport -d train -c train --type csv --headerline --file train-modified.csv
 connected to: 127.0.0.1
 Sun Nov  9 21:15:45.035         Progress: 25525519/7253916754   0%
 Sun Nov  9 21:15:45.035             21100   7033/second
@@ -65,11 +65,43 @@ Całkowity czas trwania importu do bazy trwał około 11 minut i 54 sekund.
 ###Test
 
 ```sh
-mongo
+user@host:~$ mongo
 MongoDB shell version: 2.4.9
 connecting to: test
 > use train
 switched to db train
 > db.train.count()
 6034194
+```
+
+##Importowanie danych do PostgreSQL
+
+Aby wykonać import danych do bazy PostgreSQL należy napisać skrypt SQL zawierający zapytanie tworzące odpowiednią tabelę oraz komendę COPY.
+
+###Skrypt SQL
+
+``
+DROP TABLE train;
+
+CREATE TABLE train
+(
+    id    integer,
+    title text,
+    body  text,
+    tags  text
+);
+
+COPY train
+FROM '/home/airbunker/nosql/train-modified.csv'
+WITH DELIMITER ','
+CSV HEADER;
+``
+
+###Import
+
+Aby wykonać powyższy skrypt na bazie danych należy użyć polecenia `psql` odpowiednio przekazując w parametrach plik SQL. Plik `train-modified.csv` importujemy do bazy danych poleceniem:
+
+```sh
+user@host:~$ time psql -f skrypt.sql train
+----
 ```
