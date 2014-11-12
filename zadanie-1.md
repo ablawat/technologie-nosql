@@ -1,4 +1,4 @@
-#Zadanie 1a
+#Zadanie 1a, 1b
 
 Importowanie danych z pliku `Train.csv` do systemów baz danych:
 
@@ -7,7 +7,7 @@ Importowanie danych z pliku `Train.csv` do systemów baz danych:
 
 ##Modyfikacja danych
 
-Przed importem do bazy danych musimy upewnić się, że na każdy obiekt z danymi przypada dokładnie jedna linia, bez dodatkowych znaków nowej linii wewnątrz pól. Nieporządane znaki nowej linii można usunąć takim poleceniem:
+Przed importem do bazy danych musimy upewnić się, że na każdy obiekt z danymi przypada dokładnie jedna linia, bez dodatkowych znaków nowej linii wewnątrz pól. Nieporządane znaki nowej linii można usunąć poleceniem:
 
 ```sh
 cat Train.csv | tr "\n" " " | tr "\r" "\n" > train-tmp.csv
@@ -55,7 +55,7 @@ Sun Nov  9 21:27:35.509 imported 6034194 objects
 ###Czas wykonania
 
 ```sh
-real   11m54.168s
+real    11m54.168s
 user    1m32.571s
 sys     0m12.549s
 ```
@@ -80,9 +80,7 @@ Aby wykonać import danych do bazy PostgreSQL należy napisać skrypt SQL zawier
 
 ###Skrypt SQL
 
-``
-DROP TABLE train;
-
+```
 CREATE TABLE train
 (
     id    integer,
@@ -92,10 +90,10 @@ CREATE TABLE train
 );
 
 COPY train
-FROM '/home/airbunker/nosql/train-modified.csv'
+FROM '/home/user/train-modified.csv'
 WITH DELIMITER ','
 CSV HEADER;
-``
+```
 
 ###Import
 
@@ -103,5 +101,32 @@ Aby wykonać powyższy skrypt na bazie danych należy użyć polecenia `psql` od
 
 ```sh
 user@host:~$ time psql -f skrypt.sql train
-----
+CREATE TABLE
+COPY 6034194
+```
+
+###Czas wykonania
+
+```sh
+real    15m47.877s
+user    0m0.042s
+sys     0m0.009s
+```
+
+Całkowity czas trwania importu do bazy trwał około 15 minut i 47 sekund.
+
+###Test
+
+```sh
+user@host:~$ psql
+psql (9.3.5)
+Type "help" for help.
+
+postgres=# \c train
+You are now connected to database "train" as user "postgres".
+train=# SELECT COUNT(*) FROM train;
+  count  
+---------
+ 6034194
+(1 row)
 ```
