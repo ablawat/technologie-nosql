@@ -29,18 +29,54 @@ char ** split(char *string, char *delimiter)
     return strings;
 }
 
+bson_t * create_query_bson(int id)
+{
+    bson_t *bson = bson_new();
+    bson_append_int32(bson, "id", -1, id);
+    
+    return bson;
+}
+
+bson_t * create_update_bson(char **tags)
+{
+    bson_t *bson_update = bson_new();
+    bson_t *bson_array  = bson_new();
+    bson_t *bson_set    = bson_new();
+    
+    char array_key[16];
+    int count = 0;
+    
+    while (*tags != NULL)
+    {
+        sprintf(array_key, "%d", count);
+        bson_append_utf8(bson_array, array_key, -1, *tags, -1);
+        
+        count += 1;
+        tags  += 1;
+    }
+    
+    bson_append_array(bson_set, "string", -1, bson_array);
+    bson_append_document(bson_update, "$set", -1, bson_set);
+    
+    bson_destroy(bson_array);
+    bson_destroy(bson_set);
+    
+    return bson_update;
+}
+
 int main()
 {
-    char uri_string[]      = "";
-    char db_name[]         = "";
-    char collection_name[] = "";
+    char uri_string[]      = "mongodb://localhost:27017/";
+    char db_name[]         = "test";
+    char collection_name[] = "test";
     
     mongoc_client_t     *client;
     mongoc_collection_t *collection;
     mongoc_cursor_t     *cursor;
     
-    bson_t *document;
+    const bson_t *document;
     bson_t *query;
+    bson_t *update;
     
     json_object *json;
     enum json_type json_type;
@@ -52,6 +88,8 @@ int main()
     
     char **strings;
     char **pointer;
+    
+    //
     
     
     mongoc_init();
@@ -65,7 +103,7 @@ int main()
     
     while (mongoc_cursor_next(cursor, &document))
     {
-        str = bson_as_json(document, NULL);
+        str  = bson_as_json(document, NULL);
         json = json_tokener_parse(str);
         
         json_object_object_foreach(json, key, val)
@@ -76,23 +114,33 @@ int main()
                 
                 if (json_type == json_type_string)
                 {
-                    tags = strdupa(json_object_get_string(val));
-                    
-                    //puts(tags);
-                    
+                    tags = strdup(json_object_get_string(val));
                     strings = split(tags, " ");
+                    free(tags);
                     
+                    update = create_update_bson(strings);
+                    //printf("%s\n", bson_as_json(update, NULL));
+                    
+                    bson_destroy(update);
+                    free(strings);
+                    /*
                     pointer = strings;
                     
                     while (*pointer != NULL)
                     {
+                        printf("%s:", *pointer);
+                        
                         pointer++;
                     }
+                    
+                    putchar(10);
+                    */
                 }
             }
         }
         
         bson_free(str);
+        json_object_put(json);
     }
     
     bson_destroy(query);
