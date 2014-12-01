@@ -130,3 +130,14 @@ train=# SELECT COUNT(*) FROM train;
  6034194
 (1 row)
 ```
+
+
+#Zadanie 1c
+
+Zamienić string zawierający tagi na tablicę napisów z tagami następnie zliczyć wszystkie tagi i wszystkie różne tagi.
+
+##Zamiana formatu danych w MongoDB
+
+W celu zamiany formatu danych w bazie MongoDB napisałem program w języku C, który wykorzystuje sterownik C MongoDB Driver. Aby sterownik mógł działać prawidłowo wymaga on dodatkowo biblioteki Libbson, natomiast operacje na dokumentach json pobranych z bazy wykonuję za pomocą Libjson-c.
+
+Kod programu: [tutaj](./zadanie-mongodb).

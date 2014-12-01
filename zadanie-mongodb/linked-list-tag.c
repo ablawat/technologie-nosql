@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include "linked-list-tag.h"
 
-// Tworzy listę dowiązaniową
-// -------------------------
 linked_list_tag_t ** linked_list_tag_create()
 {
     linked_list_tag_t **list = malloc(sizeof(linked_list_tag_t *) * 2);
@@ -13,8 +11,6 @@ linked_list_tag_t ** linked_list_tag_create()
     return list;
 }
 
-// Dodaje element na początek listy
-// --------------------------------
 int linked_list_tag_add_first(linked_list_tag_t **list, char *tag)
 {
     linked_list_tag_t *new_item = malloc(sizeof(linked_list_tag_t));
@@ -46,8 +42,6 @@ int linked_list_tag_add_first(linked_list_tag_t **list, char *tag)
     return result;
 }
 
-// Dodaje element na koniec listy
-// --------------------------------
 int linked_list_tag_add_last(linked_list_tag_t **list, char *tag)
 {
     linked_list_tag_t *new_item = malloc(sizeof(linked_list_tag_t));
@@ -79,8 +73,6 @@ int linked_list_tag_add_last(linked_list_tag_t **list, char *tag)
     return result;
 }
 
-// Usuwa wszystkie elementy listy
-// ------------------------------
 void linked_list_tag_clear(linked_list_tag_t **list)
 {
     linked_list_tag_t *list_item = list[0];
@@ -99,8 +91,6 @@ void linked_list_tag_clear(linked_list_tag_t **list)
     list[1] = NULL;
 }
 
-// Wyświetla zawartość listy
-// -------------------------
 void linked_list_tag_print(linked_list_tag_t **list)
 {
     linked_list_tag_t *list_item = list[0];

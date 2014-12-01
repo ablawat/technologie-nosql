@@ -2,7 +2,7 @@
 #include <bson.h>
 #include "linked-list-tag.h"
 
-bson_t * create_bson_query(int id)
+bson_t * create_bson_selector(int id)
 {
     bson_t *bson = bson_new();
     bson_append_int32(bson, "id", -1, id);

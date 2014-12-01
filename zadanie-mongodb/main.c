@@ -9,7 +9,7 @@
 #include "linked-list-tag.h"
 #include "queries.h"
 
-linked_list_tag_t ** split(char *string, char *delimiter)
+linked_list_tag_t ** tags_split(char *string, char *delimiter)
 {
     char *tag;
     char *substring;
@@ -81,12 +81,11 @@ int main()
                 if (json_type == json_type_string)
                 {
                     tags_str = strdup(json_object_get_string(val));
-                    tags = split(tags_str, " ");
+                    tags = tags_split(tags_str, " ");
                     free(tags_str);
                     
                     linked_list_tag_print(tags);
                     
-                    //query  = create_bson_query
                     update = create_bson_update(tags);
                     
                     printf("%s\n", bson_as_json(update, NULL));
@@ -94,6 +93,20 @@ int main()
                     linked_list_tag_clear(tags);
                     free(tags);
                     bson_destroy(update);
+                    
+                }
+            }
+            else if (strcmp(key, "id") == 0)
+            {
+                json_type = json_object_get_type(val);
+                
+                if (json_type == json_type_int)
+                {
+                    query = create_bson_selector(json_object_get_int(val));
+                    
+                    printf("%s\n", bson_as_json(query, NULL));
+                    
+                    bson_destroy(query);
                     
                 }
             }
