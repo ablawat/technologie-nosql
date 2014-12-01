@@ -138,6 +138,10 @@ Zamienić string zawierający tagi na tablicę napisów z tagami następnie zlic
 
 ##Zamiana formatu danych w MongoDB
 
-W celu zamiany formatu danych w bazie MongoDB napisałem program w języku C, który wykorzystuje sterownik C MongoDB Driver. Aby sterownik mógł działać prawidłowo wymaga on dodatkowo biblioteki Libbson, natomiast operacje na dokumentach json pobranych z bazy wykonuję za pomocą Libjson-c.
+W celu zamiany formatu danych w bazie MongoDB napisałem program w języku C, który wykorzystuje sterownik `C MongoDB Driver`. Aby sterownik mógł działać prawidłowo wymaga on dodatkowo biblioteki `Libbson`, natomiast operacje na dokumentach json pobranych z bazy wykonuję za pomocą `Libjson`.
 
-Kod programu: [tutaj](./zadanie-mongodb).
+`libmongoc` wersja 1.0.2
+`libbson`   wersja 1.0.0
+`libjson`   wersja 0.10
+
+Kod programu znajduje się: [tutaj](./zadanie-mongodb).
