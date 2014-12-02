@@ -31,7 +31,7 @@ bson_t * create_bson_update(linked_list_tag_t **tags)
         list_item = list_item -> next;
     }
     
-    bson_append_array(bson_set, "string", -1, bson_array);
+    bson_append_array(bson_set, "tags", -1, bson_array);
     bson_append_document(bson_update, "$set", -1, bson_set);
     
     bson_destroy(bson_array);

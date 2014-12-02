@@ -84,39 +84,32 @@ int main()
                     tags = tags_split(tags_str, " ");
                     free(tags_str);
                     
-                    linked_list_tag_print(tags);
+                    //linked_list_tag_print(tags);
                     
                     update = create_bson_update(tags);
                     
-                    printf("%s\n", bson_as_json(update, NULL));
+                    //printf("%s\n", bson_as_json(update, NULL));
                     
                     linked_list_tag_clear(tags);
                     free(tags);
-                    bson_destroy(update);
-                    
                 }
             }
             else if (strcmp(key, "id") == 0)
             {
-                json_type = json_object_get_type(val);
+                query = create_bson_selector(json_object_get_int(val));
                 
-                if (json_type == json_type_int)
-                {
-                    query = create_bson_selector(json_object_get_int(val));
-                    
-                    printf("%s\n", bson_as_json(query, NULL));
-                    
-                    bson_destroy(query);
-                    
-                }
+                printf("%s\n", bson_as_json(query, NULL));
             }
         }
         
+        mongoc_collection_update(collection, MONGOC_QUERY_NONE, query, update, NULL, NULL);
+        
+        bson_destroy(update);
+        bson_destroy(query);
         bson_free(str);
         json_object_put(json);
     }
     
-    bson_destroy(query);
     mongoc_cursor_destroy(cursor);
     mongoc_collection_destroy(collection);
     mongoc_client_destroy(client);
