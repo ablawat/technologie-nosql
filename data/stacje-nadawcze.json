@@ -1,0 +1,833 @@
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.68972", "52.8825" ] }, "properties": { "name": "RTV: Aleksandrow Kujawski *Komin Budkrusz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.3625", "49.89583" ] }, "properties": { "name": "RTV: Andrychow *Wieprz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.33778", "49.85194" ] }, "properties": { "name": "RTV: Andrychow *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.98611", "53.83444" ] }, "properties": { "name": "RTV: Augustow *Komin MPEC GIGA*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.29917", "49.33444" ] }, "properties": { "name": "RTV: Baligrod *Gora Kiczera*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.68417", "53.8275" ] }, "properties": { "name": "RTV: Barczewo *Komin MSI*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.74806", "50.51139" ] }, "properties": { "name": "RTV: Bardo Slaskie *Wzgorze Rozancowe*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.82056", "54.25444" ] }, "properties": { "name": "RTV: Bartoszyce *ul. Kajki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.14222", "50.35" ] }, "properties": { "name": "RTV: Bedzin *Komin E Lagisza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.04056", "49.89556" ] }, "properties": { "name": "RTV: Bestwina *Komin Promet*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.35667", "51.36583" ] }, "properties": { "name": "RTV: Belchatow *ul. Czaplinecka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.18778", "52.03806" ] }, "properties": { "name": "RTV: Biala Podlaska *al. Solidarnosci*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.11167", "52.04694" ] }, "properties": { "name": "RTV: Biala Podlaska *Budynek WSzS*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.07083", "52.03472" ] }, "properties": { "name": "RTV: Biala Podlaska *Warszawska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.68611", "53.88611" ] }, "properties": { "name": "RTV: Bialogard *Slawoborze*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.8775", "52.6975" ] }, "properties": { "name": "RTV: Bialowieza *ul. Waszkiewicza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.17333", "53.13444" ] }, "properties": { "name": "RTV: Bialystok *Budynek Urzedu Miasta*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.15861", "53.12778" ] }, "properties": { "name": "RTV: Bialystok *Budynek UwB*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.12083", "53.14583" ] }, "properties": { "name": "RTV: Bialystok *Cerkiew Sw. Ducha*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.14944", "53.1275" ] }, "properties": { "name": "RTV: Bialystok *Cieszynska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.12056", "53.1375" ] }, "properties": { "name": "RTV: Bialystok *Hotel Turkus*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.10667", "53.11083" ] }, "properties": { "name": "RTV: Bialystok *Komin C Zachod*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.14556", "53.13472" ] }, "properties": { "name": "RTV: Bialystok *Kosciol Sw. Rocha*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.02639", "53.23139" ] }, "properties": { "name": "RTV: Bialystok *Krynice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.15083", "53.11972" ] }, "properties": { "name": "RTV: Bialystok *ul. Zwierzyniecka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.13333", "53.13333" ] }, "properties": { "name": "RTV: Bialystok [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.20667", "52.74528" ] }, "properties": { "name": "RTV: Bielsk Podlaski *Elewator Bielsk*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.18639", "52.76417" ] }, "properties": { "name": "RTV: Bielsk Podlaski [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.02611", "49.78389" ] }, "properties": { "name": "RTV: Bielsko-Biala *Budynek ZIAD*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.03194", "49.8175" ] }, "properties": { "name": "RTV: Bielsko-Biala *Cieszynska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.99528", "49.73972" ] }, "properties": { "name": "RTV: Bielsko-Biala *Gora Klimczok*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.125", "49.77583" ] }, "properties": { "name": "RTV: Bielsko-Biala *Gora Magurka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.00167", "49.76028" ] }, "properties": { "name": "RTV: Bielsko-Biala *Gora Szyndzielnia - Kolejka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.0025", "49.75528" ] }, "properties": { "name": "RTV: Bielsko-Biala *Gora Szyndzielnia - Schronisko*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.00139", "49.76056" ] }, "properties": { "name": "RTV: Bielsko-Biala *Gora Szyndzielnia*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.05306", "49.8125" ] }, "properties": { "name": "RTV: Bielsko-Biala *Komin EC Bielsko-Biala*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.07583", "49.81194" ] }, "properties": { "name": "RTV: Bielsko-Biala *Kosciol Sw. Jozefa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.06778", "49.82333" ] }, "properties": { "name": "RTV: Bielsko-Biala *ul. Wapienna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.48222", "49.68694" ] }, "properties": { "name": "RTV: Bircza *Gora Kamienna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.73333", "50.53333" ] }, "properties": { "name": "RTV: Bilgoraj [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.45611", "49.96139" ] }, "properties": { "name": "RTV: Bochnia *ul. Brzeznicka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.99167", "50.87778" ] }, "properties": { "name": "RTV: Bogatynia *Gora Wysoka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.93111", "50.92667" ] }, "properties": { "name": "RTV: Bogatynia *KWB Turow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.56639", "51.26194" ] }, "properties": { "name": "RTV: Boleslawiec [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.8275", "54.38417" ] }, "properties": { "name": "RTV: Braniewo [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.92861", "49.72778" ] }, "properties": { "name": "RTV: Brenna *Wzgorze Jatny*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.45944", "53.2325" ] }, "properties": { "name": "RTV: Brodnica *Cieleta*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.37889", "53.26722" ] }, "properties": { "name": "RTV: Brodnica *Kruszynki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.46722", "50.86333" ] }, "properties": { "name": "RTV: Brzeg *Kosciol Podwyzszenia Krzyza Sw.*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.45778", "50.87" ] }, "properties": { "name": "RTV: Brzeg *Wroclawska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.55833", "50.79444" ] }, "properties": { "name": "RTV: Brzeg *Losiow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.62861", "49.97389" ] }, "properties": { "name": "RTV: Brzesko *Komin MPEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.73472", "50.46778" ] }, "properties": { "name": "RTV: Busko-Zdroj *Komin KZC Ponidzie*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.72028", "50.46861" ] }, "properties": { "name": "RTV: Busko-Zdroj *ul. Mickiewicza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.98056", "53.11778" ] }, "properties": { "name": "RTV: Bydgoszcz *Budynek b. BZF Foton - Sklep*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.98278", "53.11778" ] }, "properties": { "name": "RTV: Bydgoszcz *Budynek b. BZF Foton*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.02917", "53.1325" ] }, "properties": { "name": "RTV: Bydgoszcz *Chodkiewicza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.98361", "53.13583" ] }, "properties": { "name": "RTV: Bydgoszcz *Komin EC Bydgoszcz I*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.01556", "53.115" ] }, "properties": { "name": "RTV: Bydgoszcz *Kosciol Sw. Jadwigi Krolowej*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.08222", "53.16917" ] }, "properties": { "name": "RTV: Bydgoszcz *Osielsko*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.17333", "53.265" ] }, "properties": { "name": "RTV: Bydgoszcz *Trzeciewiec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.03333", "53.11667" ] }, "properties": { "name": "RTV: Bydgoszcz [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.74861", "50.24028" ] }, "properties": { "name": "RTV: Bystrzyca Klodzka *Gora Igliczna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.87528", "50.34222" ] }, "properties": { "name": "RTV: Bytom *Komin PPU Vulkan*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.49583", "54.18194" ] }, "properties": { "name": "RTV: Bytow *Komin Dalkia Polnoc*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.49583", "54.18194" ] }, "properties": { "name": "RTV: Bytow *ul. Przemyslowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.42583", "54.05444" ] }, "properties": { "name": "RTV: Bytow *Wojsk*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.46667", "51.13556" ] }, "properties": { "name": "RTV: Chelm *Hotel Kamena*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.48639", "51.12444" ] }, "properties": { "name": "RTV: Chelm *Komin MPEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.42083", "51.14694" ] }, "properties": { "name": "RTV: Chelm *Kumowa Dolina*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.86083", "54.72194" ] }, "properties": { "name": "RTV: Choczewo *Zelazno*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.90778", "52.98333" ] }, "properties": { "name": "RTV: Chodziez *ul. Strzelecka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.56306", "53.69528" ] }, "properties": { "name": "RTV: Chojnice *Bazylika Mniejsza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.59111", "53.69056" ] }, "properties": { "name": "RTV: Chojnice *Komin Cieplowni Rindipol*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.58139", "53.69361" ] }, "properties": { "name": "RTV: Chojnice *ul. Towarowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.97167", "50.31639" ] }, "properties": { "name": "RTV: Chorzow *Komin Zakladow Azotowych*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.60389", "52.85639" ] }, "properties": { "name": "RTV: Ciechanow *Komin PEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.58", "52.87194" ] }, "properties": { "name": "RTV: Ciechanow *Monte Cassino*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.51", "52.67222" ] }, "properties": { "name": "RTV: Ciechanowiec *ul. Podlaska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.13833", "50.25306" ] }, "properties": { "name": "RTV: Cieszanow *ul. Kosciuszki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.64167", "49.74306" ] }, "properties": { "name": "RTV: Cieszyn *Komin Szpitala Slaskiego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.63861", "49.73861" ] }, "properties": { "name": "RTV: Cieszyn *ul. Mickiewicza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.63667", "49.76111" ] }, "properties": { "name": "RTV: Cieszyn *ul. Wegielna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.34778", "49.21528" ] }, "properties": { "name": "RTV: Cisna *Gora Potoczyszcze*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.68833", "49.31556" ] }, "properties": { "name": "RTV: Czarna" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.9975", "49.91389" ] }, "properties": { "name": "RTV: Czechowice-Dziedzice *Budynek Stara Kablownia*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.96667", "53.8" ] }, "properties": { "name": "RTV: Czersk *Brusy*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.89444", "53.79111" ] }, "properties": { "name": "RTV: Czersk *Niezurawa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.11806", "50.82667" ] }, "properties": { "name": "RTV: Czestochowa *Budynek Montex*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.14583", "50.77333" ] }, "properties": { "name": "RTV: Czestochowa *Bleszno*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.14222", "50.79444" ] }, "properties": { "name": "RTV: Czestochowa *Komin Fortum Czestochowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.18111", "50.795" ] }, "properties": { "name": "RTV: Czestochowa *Komin ZE ELSEN*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.85889", "50.65417" ] }, "properties": { "name": "RTV: Czestochowa *Koszecin*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.10833", "50.83056" ] }, "properties": { "name": "RTV: Czestochowa *ul. Kwiatkowskiego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.85694", "50.85056" ] }, "properties": { "name": "RTV: Czestochowa *Wreczyca*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.11472", "50.81306" ] }, "properties": { "name": "RTV: Czestochowa [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.41861", "52.75111" ] }, "properties": { "name": "RTV: Czyze *Zbucz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.35778", "53.67111" ] }, "properties": { "name": "RTV: Czluchow *Szkolna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.4875", "52.83667" ] }, "properties": { "name": "RTV: Damaslawek *ul. Lipowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.39472", "54.42556" ] }, "properties": { "name": "RTV: Darlowo *ul. Lotnikow Morskich*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.41667", "50.05" ] }, "properties": { "name": "RTV: Debica [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.74111", "52.96722" ] }, "properties": { "name": "RTV: Dobiegniew *ul. Lesna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.24722", "49.70556" ] }, "properties": { "name": "RTV: Dobra *Gora Nad Kiwajami*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.44417", "50.73222" ] }, "properties": { "name": "RTV: Dobrodzien *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.8325", "52.86111" ] }, "properties": { "name": "RTV: Drezdenko *Radowo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.68639", "49.56778" ] }, "properties": { "name": "RTV: Dukla" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.65", "49.57222" ] }, "properties": { "name": "RTV: Dukla *Teodorowka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.39778", "50.40778" ] }, "properties": { "name": "RTV: Duszniki-Zdroj *Dolina*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.38222", "50.39278" ] }, "properties": { "name": "RTV: Duszniki-Zdroj *Komin Szpitala Uzdr.*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.3675", "50.37139" ] }, "properties": { "name": "RTV: Duszniki-Zdroj *Podgorze*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.38972", "50.40722" ] }, "properties": { "name": "RTV: Duszniki-Zdroj *ul. Kolejowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.39056", "50.40444" ] }, "properties": { "name": "RTV: Duszniki-Zdroj [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.25861", "49.81833" ] }, "properties": { "name": "RTV: Dynow *Gora Winnica*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.94278", "50.97139" ] }, "properties": { "name": "RTV: Dzialoszyn *Centrum METEO*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.79611", "51.15556" ] }, "properties": { "name": "RTV: Dzialoszyn *Nizankowice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.64583", "50.72611" ] }, "properties": { "name": "RTV: Dzierzoniow *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.65", "50.73333" ] }, "properties": { "name": "RTV: Dzierzoniow [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.33278", "50.34083" ] }, "properties": { "name": "RTV: Dabrowa Gorn. *Komin Koksowni Przyjazn*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.42611", "54.16278" ] }, "properties": { "name": "RTV: Elblag *Budynek III L.O.*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.53417", "54.22" ] }, "properties": { "name": "RTV: Elblag *Gora Milejewska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.49472", "54.20778" ] }, "properties": { "name": "RTV: Elblag *Jagodnik*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.38583", "54.17861" ] }, "properties": { "name": "RTV: Elblag *Komin ENERGA*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.42583", "54.17917" ] }, "properties": { "name": "RTV: Elblag *ul. Krolewiecka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.41667", "54.16667" ] }, "properties": { "name": "RTV: Elblag [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.37472", "53.81667" ] }, "properties": { "name": "RTV: Elk *Komin PEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.32833", "53.87611" ] }, "properties": { "name": "RTV: Elk *Oracze*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.71139", "51.8475" ] }, "properties": { "name": "RTV: Garwolin *Gorzno*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.64667", "54.35861" ] }, "properties": { "name": "RTV: Gdansk *Budynek Centrum Techniki Okretowej*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.65", "54.35667" ] }, "properties": { "name": "RTV: Gdansk *Budynek Navimor*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.43583", "54.45278" ] }, "properties": { "name": "RTV: Gdansk *Chwaszczyno*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.65111", "54.35611" ] }, "properties": { "name": "RTV: Gdansk *Hotel Mercure Hevelius*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.60167", "54.36722" ] }, "properties": { "name": "RTV: Gdansk *Jaskowa Kopa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.64278", "54.37778" ] }, "properties": { "name": "RTV: Gdansk *Komin EC Gdansk II*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.63333", "54.38333" ] }, "properties": { "name": "RTV: Gdansk [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.46278", "54.45833" ] }, "properties": { "name": "RTV: Gdynia *Budynek Anser*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.52556", "54.52" ] }, "properties": { "name": "RTV: Gdynia *Budynek MIR*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.48083", "54.55333" ] }, "properties": { "name": "RTV: Gdynia *Komin EC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.53611", "54.54722" ] }, "properties": { "name": "RTV: Gdynia *Oksywie''*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.53611", "54.54722" ] }, "properties": { "name": "RTV: Gdynia *Oksywie'*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.53361", "54.545" ] }, "properties": { "name": "RTV: Gdynia *Oksywie*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.495", "54.49917" ] }, "properties": { "name": "RTV: Gdynia *ul. Chwarznienska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.53333", "54.51667" ] }, "properties": { "name": "RTV: Gdynia [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.77389", "54.04306" ] }, "properties": { "name": "RTV: Gizycko *1 Maja*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.78389", "54.05278" ] }, "properties": { "name": "RTV: Gizycko *Gajewo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.76778", "54.0375" ] }, "properties": { "name": "RTV: Gizycko *Hotel Wodnik*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.84806", "53.93833" ] }, "properties": { "name": "RTV: Gizycko *Milki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.76667", "54.03333" ] }, "properties": { "name": "RTV: Gizycko [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.68889", "50.31333" ] }, "properties": { "name": "RTV: Gliwice *Wieza radiostacji*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.60528", "52.53444" ] }, "properties": { "name": "RTV: Gniezno *Budynek ZSP nr 1*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.60556", "52.53417" ] }, "properties": { "name": "RTV: Gniezno *Komin PEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.60417", "52.53306" ] }, "properties": { "name": "RTV: Gniezno *ul. Sobieskiego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.6", "52.53333" ] }, "properties": { "name": "RTV: Gniezno [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.85222", "53.56028" ] }, "properties": { "name": "RTV: Goleniow *Komin PEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.15389", "49.665" ] }, "properties": { "name": "RTV: Gorlice *Gora Cmentarna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.1825", "49.67722" ] }, "properties": { "name": "RTV: Gorlice *Komin EC Gorlice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.05", "49.65" ] }, "properties": { "name": "RTV: Gorlice *Maslana Gora*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.26", "52.73833" ] }, "properties": { "name": "RTV: Gorzow Wielkopolski *Budynek LCHU Spolem*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.23056", "52.73889" ] }, "properties": { "name": "RTV: Gorzow Wielkopolski *Budynek Urzedu Woj.*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.25389", "52.70833" ] }, "properties": { "name": "RTV: Gorzow Wielkopolski *Komin b. C Malorolnych*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.20639", "52.73667" ] }, "properties": { "name": "RTV: Gorzow Wielkopolski *Komin b. C Niemcewicza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.13583", "52.745" ] }, "properties": { "name": "RTV: Gorzow Wielkopolski *Komin b. ZM Ursus*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.25917", "52.73806" ] }, "properties": { "name": "RTV: Gorzow Wielkopolski *Podmiejska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.23333", "52.73333" ] }, "properties": { "name": "RTV: Gorzow Wielkopolski [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.05806", "51.81417" ] }, "properties": { "name": "RTV: Gostyn *Domachowo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.0025", "51.86444" ] }, "properties": { "name": "RTV: Gostyn *Spoldzielnia Mleczarska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.29361", "54.28167" ] }, "properties": { "name": "RTV: Goldap *Piekna Gora'*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.29583", "54.28167" ] }, "properties": { "name": "RTV: Goldap *Piekna Gora*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.45472", "53.64694" ] }, "properties": { "name": "RTV: Grajewo [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.61417", "52.11056" ] }, "properties": { "name": "RTV: Grodzisk Maz. *Komin Gedeon Richter*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.86389", "51.86806" ] }, "properties": { "name": "RTV: Grojec *Kosciol Sw. Mikolaja*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.85583", "51.86222" ] }, "properties": { "name": "RTV: Grojec *ul. Mogielnicka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.95778", "51.75667" ] }, "properties": { "name": "RTV: Grojec *Zbrosza Duza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.93833", "49.82444" ] }, "properties": { "name": "RTV: Gromnik *ul. Widok*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.75611", "53.485" ] }, "properties": { "name": "RTV: Grudziadz *ul. Focha*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.73917", "53.47528" ] }, "properties": { "name": "RTV: Grudziadz *ul. Kalinkowa'*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.73972", "53.47472" ] }, "properties": { "name": "RTV: Grudziadz *ul. Kalinkowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.97639", "49.61194" ] }, "properties": { "name": "RTV: Grybow *Gora Kamienna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.19778", "53.91361" ] }, "properties": { "name": "RTV: Gryfice *Kosciol Wniebowziecia NMP*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.19306", "53.90611" ] }, "properties": { "name": "RTV: Gryfice *Trzyglowska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.20972", "53.92944" ] }, "properties": { "name": "RTV: Gryfice *ul. Pilsudskiego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.46361", "53.20444" ] }, "properties": { "name": "RTV: Gryfino *Nowe Czarnowo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.01167", "51.59611" ] }, "properties": { "name": "RTV: Glogow *Jakubow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.12361", "51.6625" ] }, "properties": { "name": "RTV: Glogow *Komin EC Widziszow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.09278", "51.66389" ] }, "properties": { "name": "RTV: Glogow *Wieza Ratuszowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.95056", "50.20222" ] }, "properties": { "name": "RTV: Glogow Malopolski *Przewrotne*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.83028", "50.19917" ] }, "properties": { "name": "RTV: Glubczyce *Fabryczna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.38056", "50.68417" ] }, "properties": { "name": "RTV: Gluszyca *ul. Lesna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.59", "52.74194" ] }, "properties": { "name": "RTV: Hajnowka *Cieplownia Rindipol*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.79444", "54.6225" ] }, "properties": { "name": "RTV: Hel *Wieza Muzeum Obrony Wybrzeza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.80639", "54.60111" ] }, "properties": { "name": "RTV: Hel [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.28889", "49.43944" ] }, "properties": { "name": "RTV: Hoczew *Gora Czekaj*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.74083", "50.97611" ] }, "properties": { "name": "RTV: Hrubieszow *Bialopole*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.77833", "50.81667" ] }, "properties": { "name": "RTV: Hrubieszow *Nieledew*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.88333", "50.8" ] }, "properties": { "name": "RTV: Hrubieszow [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.24111", "52.74944" ] }, "properties": { "name": "RTV: Inowroclaw *Komin Soda-Matwy*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.26", "52.80028" ] }, "properties": { "name": "RTV: Inowroclaw *Kosciol Zwiastowania NMP*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.2675", "52.79056" ] }, "properties": { "name": "RTV: Inowroclaw *ul. Chrobrego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.25694", "52.79917" ] }, "properties": { "name": "RTV: Inowroclaw *ul. Laubitza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.90139", "49.56667" ] }, "properties": { "name": "RTV: Istebna *Gora Zloty Gron*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.78583", "49.56056" ] }, "properties": { "name": "RTV: Iwonicz-Zdroj *Sanatorium Excelsior*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.57944", "53.58333" ] }, "properties": { "name": "RTV: Ilawa *Budynek IPB*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.22111", "53.61389" ] }, "properties": { "name": "RTV: Ilawa *Kisielice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.58278", "53.60389" ] }, "properties": { "name": "RTV: Ilawa *PBO*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.71528", "49.4875" ] }, "properties": { "name": "RTV: Jablonka *Gora Oskwarkowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.48639", "52.7575" ] }, "properties": { "name": "RTV: Janowiec Wielkopolski [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.48722", "51.95" ] }, "properties": { "name": "RTV: Jarocin *Komin Dalkia Jarocin*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.665", "50.01083" ] }, "properties": { "name": "RTV: Jaroslaw *Komin ZM Sokolow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.62722", "49.96417" ] }, "properties": { "name": "RTV: Jastrzebie-Zdroj *KWK Borynia-Zofiowka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.35111", "49.81306" ] }, "properties": { "name": "RTV: Jaslo *Gora Liwocz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.47333", "49.745" ] }, "properties": { "name": "RTV: Jaslo [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.815", "49.42944" ] }, "properties": { "name": "RTV: Jasliska *Posada*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.35806", "50.71833" ] }, "properties": { "name": "RTV: Jedlina-Zdroj *Gora Kawiniec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.275", "50.6425" ] }, "properties": { "name": "RTV: Jedrzejow *Komin PBO Kartel*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.3", "50.63333" ] }, "properties": { "name": "RTV: Jedrzejow [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.88417", "50.94139" ] }, "properties": { "name": "RTV: Jelenia Gora *Gora Baraniec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.71306", "50.89028" ] }, "properties": { "name": "RTV: Jelenia Gora *Komin Jelchem-KMC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.73917", "50.89639" ] }, "properties": { "name": "RTV: Jelenia Gora *Wzgorze Kosciuszki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.79528", "50.96139" ] }, "properties": { "name": "RTV: Jelenia Gora *Lysa Gora*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.55722", "50.77889" ] }, "properties": { "name": "RTV: Jelenia Gora *Sniezne Kotly*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.73417", "50.90333" ] }, "properties": { "name": "RTV: Jelenia Gora [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.31528", "49.61056" ] }, "properties": { "name": "RTV: Jelesnia *Gora Krzyzowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.16833", "51.69917" ] }, "properties": { "name": "RTV: Kalisz *Chelmce - Kosciol*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.16917", "51.70139" ] }, "properties": { "name": "RTV: Kalisz *Chelmce*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.09111", "51.7825" ] }, "properties": { "name": "RTV: Kalisz *Komin PPHU Alme*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.99639", "51.53306" ] }, "properties": { "name": "RTV: Kalisz *Mikstat*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.41361", "49.16361" ] }, "properties": { "name": "RTV: Kalnica *Gora Wideta*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.67222", "49.86" ] }, "properties": { "name": "RTV: Kalwaria Zebrzydowska *Bazylika MB Anielskiej*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.03333", "50.7775" ] }, "properties": { "name": "RTV: Kamienna Gora *Gora Koscielna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.03167", "50.7825" ] }, "properties": { "name": "RTV: Kamienna Gora *Kosciol Sw. Piotra i Pawla*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.43833", "51.21" ] }, "properties": { "name": "RTV: Kamiensk *Gora Kamiensk - Strefa FM*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.43528", "51.20583" ] }, "properties": { "name": "RTV: Kamiensk *Gora Kamiensk*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.49611", "51.20194" ] }, "properties": { "name": "RTV: Kamiensk [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.78361", "49.58528" ] }, "properties": { "name": "RTV: Kamionka Wielka *Gora Dybowka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.26889", "52.07722" ] }, "properties": { "name": "RTV: Karczew *Komin KPEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.72528", "50.77889" ] }, "properties": { "name": "RTV: Karpacz Gorny *Dom Wypoczynkowy Szczyt*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.7225", "50.78028" ] }, "properties": { "name": "RTV: Karpacz Gorny *ul. Spokojna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.2", "54.33417" ] }, "properties": { "name": "RTV: Kartuzy *Budynek Urzedu Miasta*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.10167", "54.21917" ] }, "properties": { "name": "RTV: Kartuzy *Szymbark - Kosciol*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.12944", "54.21111" ] }, "properties": { "name": "RTV: Kartuzy *Szymbark*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.02444", "50.26139" ] }, "properties": { "name": "RTV: Katowice *Budynek Altus*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.005", "50.29556" ] }, "properties": { "name": "RTV: Katowice *Bytkow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.05389", "50.28528" ] }, "properties": { "name": "RTV: Katowice *Komin EC Katowice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.11694", "50.18806" ] }, "properties": { "name": "RTV: Katowice *Kosztowy*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19", "50.25" ] }, "properties": { "name": "RTV: Katowice [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.96861", "51.32583" ] }, "properties": { "name": "RTV: Kazimierz Dolny *Gory I*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.28917", "50.35556" ] }, "properties": { "name": "RTV: Kedzierzyn-Kozle *Komin E Blachownia (2)*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.29278", "50.35611" ] }, "properties": { "name": "RTV: Kedzierzyn-Kozle *Komin E Blachownia*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.145", "50.33583" ] }, "properties": { "name": "RTV: Kedzierzyn-Kozle *Piramowicza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.00306", "51.29722" ] }, "properties": { "name": "RTV: Kepno *Elewator Elewarr*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.37917", "54.09139" ] }, "properties": { "name": "RTV: Ketrzyn *ul. Lokietka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.61667", "50.89778" ] }, "properties": { "name": "RTV: Kielce *Komin EC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.63167", "50.87639" ] }, "properties": { "name": "RTV: Kielce *Targowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.6425", "50.83833" ] }, "properties": { "name": "RTV: Kielce *Wzgorze Telegraf*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.05056", "50.86083" ] }, "properties": { "name": "RTV: Kielce *Swiety Krzyz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.19722", "50.97306" ] }, "properties": { "name": "RTV: Kluczbork *Elewator Polskie Mlyny*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.20083", "50.98111" ] }, "properties": { "name": "RTV: Kluczbork *Komin ECO*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.21694", "50.98333" ] }, "properties": { "name": "RTV: Kluczbork *Kosciol Najsw. Serca Pana Jezusa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.00917", "51.0325" ] }, "properties": { "name": "RTV: Kluczbork *Wierzbica Gorna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.67639", "50.21694" ] }, "properties": { "name": "RTV: Knurow *KWK Knurow-Szczyglowice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.86528", "50.95833" ] }, "properties": { "name": "RTV: Kobierzyce *Pustkow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.78361", "50.28778" ] }, "properties": { "name": "RTV: Kolbuszowa *Cmolas*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.06222", "49.335" ] }, "properties": { "name": "RTV: Komancza *Gora Krymieniec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.95583", "49.54556" ] }, "properties": { "name": "RTV: Koniakow *Gora Ochodzita*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.96667", "49.56667" ] }, "properties": { "name": "RTV: Koniakow *Gora Tyniok*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.27306", "52.23083" ] }, "properties": { "name": "RTV: Konin *11 Listopada*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.26083", "52.23444" ] }, "properties": { "name": "RTV: Konin *Budynek Sonata*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.24444", "52.23444" ] }, "properties": { "name": "RTV: Konin *Elewator*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.32972", "52.39889" ] }, "properties": { "name": "RTV: Konin *Zolwieniec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.46833", "51.28583" ] }, "properties": { "name": "RTV: Konskie *Kupimierz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.38722", "51.19194" ] }, "properties": { "name": "RTV: Konskie *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.4", "51.2" ] }, "properties": { "name": "RTV: Konskie [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.3", "51.74722" ] }, "properties": { "name": "RTV: Konstantynow Lodzki *Komin b.ZPW Konstilana*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.94583", "53.29167" ] }, "properties": { "name": "RTV: Koronowo *Okole*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.22583", "54.20778" ] }, "properties": { "name": "RTV: Koszalin *Gora Chelmska - Wieza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.22833", "54.20417" ] }, "properties": { "name": "RTV: Koszalin *Gora Chelmska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.74083", "54.00417" ] }, "properties": { "name": "RTV: Koszalin *Gologora*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.15722", "54.19583" ] }, "properties": { "name": "RTV: Koszalin *Komin MEC DPM*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.17417", "54.175" ] }, "properties": { "name": "RTV: Koszalin *Komin MEC FUB*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.19694", "54.19083" ] }, "properties": { "name": "RTV: Koszalin *ul. Zwyciestwa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.21667", "54.2" ] }, "properties": { "name": "RTV: Koszalin [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.38889", "49.61694" ] }, "properties": { "name": "RTV: Koszarawa *Wzgorze Mendralowe*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.86111", "50.77306" ] }, "properties": { "name": "RTV: Kowary *Gora Rudnik*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.53083", "51.58944" ] }, "properties": { "name": "RTV: Kozienice *Komin ZEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.57417", "54.17611" ] }, "properties": { "name": "RTV: Kolobrzeg *Bazylika Konkatedralna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.55472", "54.17444" ] }, "properties": { "name": "RTV: Kolobrzeg *Jednosci Narodowej*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.58694", "54.18167" ] }, "properties": { "name": "RTV: Kolobrzeg *Komin MEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.63722", "54.14917" ] }, "properties": { "name": "RTV: Kolobrzeg *Stramnica*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.66333", "52.09056" ] }, "properties": { "name": "RTV: Koscian *Komin nieczynnej CM*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.96389", "54.12278" ] }, "properties": { "name": "RTV: Koscierzyna *Komin MPI KOS-EKO*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.96389", "54.16083" ] }, "properties": { "name": "RTV: Koscierzyna *Skorzewo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.97056", "54.12389" ] }, "properties": { "name": "RTV: Koscierzyna *ul. Sienkiewicza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.97472", "54.12167" ] }, "properties": { "name": "RTV: Koscierzyna [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.93472", "50.02694" ] }, "properties": { "name": "RTV: Krakow *Budynek IPS*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.08444", "49.95694" ] }, "properties": { "name": "RTV: Krakow *Choragwica*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.00667", "50.05389" ] }, "properties": { "name": "RTV: Krakow *Komin EC Krakow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.09222", "50.08028" ] }, "properties": { "name": "RTV: Krakow *Komin Huty ArcelorMittal Poland (2)*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.09306", "50.08083" ] }, "properties": { "name": "RTV: Krakow *Komin Huty ArcelorMittal Poland*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.89444", "50.05556" ] }, "properties": { "name": "RTV: Krakow *Kopiec Kosciuszki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.94806", "50.03917" ] }, "properties": { "name": "RTV: Krakow *Krzemionki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.90889", "50.05056" ] }, "properties": { "name": "RTV: Krakow *Malczewskiego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.97194", "49.99" ] }, "properties": { "name": "RTV: Krakow *Rajsko*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.99056", "50.00167" ] }, "properties": { "name": "RTV: Krakow *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.94861", "50.48583" ] }, "properties": { "name": "RTV: Krapkowice *Komin ZP Metsa Tissue*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.18167", "50.96556" ] }, "properties": { "name": "RTV: Krasnik *Komin FLT*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.23861", "50.92917" ] }, "properties": { "name": "RTV: Krasnik *ul. Lubelska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.77667", "49.67917" ] }, "properties": { "name": "RTV: Krosno *Budynek ZUS*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.83111", "49.73889" ] }, "properties": { "name": "RTV: Krosno *Czarnorzeki'*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.83306", "49.73889" ] }, "properties": { "name": "RTV: Krosno *Czarnorzeki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.81556", "49.75639" ] }, "properties": { "name": "RTV: Krosno *Sucha Gora*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.76667", "49.68333" ] }, "properties": { "name": "RTV: Krosno [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.44611", "49.44833" ] }, "properties": { "name": "RTV: Kroscienko *Gora Stajkowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.89528", "49.41778" ] }, "properties": { "name": "RTV: Krynica *Gora Jaworzyna - Kolejka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.89722", "49.41722" ] }, "properties": { "name": "RTV: Krynica *Gora Jaworzyna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.96889", "49.41556" ] }, "properties": { "name": "RTV: Krynica *Gora Parkowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.17861", "49.69056" ] }, "properties": { "name": "RTV: Krzemienna *Gora Maly Dzial*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.25306", "50.44583" ] }, "properties": { "name": "RTV: Kudowa-Zdroj *Gora Parkowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.23889", "50.44083" ] }, "properties": { "name": "RTV: Kudowa-Zdroj *Hotel Kudowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.335", "50.41306" ] }, "properties": { "name": "RTV: Kulin Klodzki *Gora Grodziec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.40444", "52.20944" ] }, "properties": { "name": "RTV: Kutno *Komin ECO*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.40722", "52.22389" ] }, "properties": { "name": "RTV: Kutno *Komin Odlewni Zeliwa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.36028", "52.24028" ] }, "properties": { "name": "RTV: Kutno *Kosciol Sw. Jana Chrzciciela*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.35417", "52.23333" ] }, "properties": { "name": "RTV: Kutno [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.92722", "53.72056" ] }, "properties": { "name": "RTV: Kwidzyn *Elewator PZZ Kwidzyn*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.93111", "53.72306" ] }, "properties": { "name": "RTV: Kwidzyn *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.94111", "50.9075" ] }, "properties": { "name": "RTV: Klobuck *Komin C Klobuck*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.67778", "50.46889" ] }, "properties": { "name": "RTV: Klodzko *Boguszyn*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.80472", "50.25583" ] }, "properties": { "name": "RTV: Klodzko *Czarna Gora*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.63444", "50.41889" ] }, "properties": { "name": "RTV: Klodzko *Komin Fortum DZT*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.63056", "50.44278" ] }, "properties": { "name": "RTV: Klodzko *ul. Zajecza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.44944", "49.76194" ] }, "properties": { "name": "RTV: Laskowa [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.70389", "54.57139" ] }, "properties": { "name": "RTV: Lebork *Czarnowko*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.49833", "54.495" ] }, "properties": { "name": "RTV: Lebork *Skorowo Nowe*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.93583", "52.41972" ] }, "properties": { "name": "RTV: Legionowo *Komin PEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.16556", "51.21111" ] }, "properties": { "name": "RTV: Legnica *Hotel Qubus*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.11361", "51.18472" ] }, "properties": { "name": "RTV: Legnica *Komin Huty Miedzi*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.19056", "51.23528" ] }, "properties": { "name": "RTV: Legnica *Komin WPEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.15889", "51.20889" ] }, "properties": { "name": "RTV: Legnica *Kosciol Sw. Jana Chrzciciela*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.16333", "51.2125" ] }, "properties": { "name": "RTV: Legnica *Piastowska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.15", "51.2" ] }, "properties": { "name": "RTV: Legnica [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.59778", "51.84111" ] }, "properties": { "name": "RTV: Leszno *Komin b. kotlowni MPEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.56361", "51.86167" ] }, "properties": { "name": "RTV: Leszno *Komin kotlowni Zatorze*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.50361", "51.82417" ] }, "properties": { "name": "RTV: Leszno *Lasocice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.58833", "51.84028" ] }, "properties": { "name": "RTV: Leszno *ul. Grunwaldzka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.26306", "50.43389" ] }, "properties": { "name": "RTV: Lewin Klodzki *Wzgorze Blonie*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.27806", "51.03306" ] }, "properties": { "name": "RTV: Lesna *Wzgorze Baworowo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.405", "50.24833" ] }, "properties": { "name": "RTV: Lezajsk *Giedlarowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.42139", "50.25944" ] }, "properties": { "name": "RTV: Lezajsk *Mickiewicza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.56444", "54.13889" ] }, "properties": { "name": "RTV: Lidzbark Warminski *Dabrowskiego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.40389", "49.705" ] }, "properties": { "name": "RTV: Limanowa *Gora Lipowe*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.42167", "49.70667" ] }, "properties": { "name": "RTV: Limanowa [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.93222", "53.01944" ] }, "properties": { "name": "RTV: Lipiany *Debiec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.93889", "53.01361" ] }, "properties": { "name": "RTV: Lipiany *Komin Lipkon*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.96861", "53.0025" ] }, "properties": { "name": "RTV: Lipiany *Kosciol Wniebowziecia NMP*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.65667", "51.15139" ] }, "properties": { "name": "RTV: Lipsko *ul.Przemyslowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.17583", "50.08056" ] }, "properties": { "name": "RTV: Lubaczow *Boble*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.12139", "50.15806" ] }, "properties": { "name": "RTV: Lubaczow *Starostwo Powiatowe*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.17639", "51.15" ] }, "properties": { "name": "RTV: Luban *Nowa Karczma*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.01417", "50.70306" ] }, "properties": { "name": "RTV: Lubawka *Gora Swieta*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.99417", "50.70222" ] }, "properties": { "name": "RTV: Lubawka *Ulanowice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.18278", "51.37556" ] }, "properties": { "name": "RTV: Lubin *Komin MPEC Termal*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.19833", "51.40944" ] }, "properties": { "name": "RTV: Lubin *ul. Sklodowskiej*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.20694", "51.38861" ] }, "properties": { "name": "RTV: Lubin *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.65472", "51.005" ] }, "properties": { "name": "RTV: Lublin *Bozy Dar*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.54056", "51.24583" ] }, "properties": { "name": "RTV: Lublin *Budynek UMCS*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.55778", "51.21583" ] }, "properties": { "name": "RTV: Lublin *Komin EC Wrotkow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.60194", "51.24" ] }, "properties": { "name": "RTV: Lublin *Komin Megatem EC Lublin*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.87028", "51.13056" ] }, "properties": { "name": "RTV: Lublin *Piaski*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.65", "51.05611" ] }, "properties": { "name": "RTV: Lublin *Piotrkow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.54667", "51.24417" ] }, "properties": { "name": "RTV: Lublin *Raabego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.56667", "51.25" ] }, "properties": { "name": "RTV: Lublin [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.66722", "50.67833" ] }, "properties": { "name": "RTV: Lubliniec *Komin C Lubliniec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.6975", "49.24583" ] }, "properties": { "name": "RTV: Lutowiska" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.87944", "50.33667" ] }, "properties": { "name": "RTV: Ladek-Zdroj *Gora Dzielec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.30361", "49.20083" ] }, "properties": { "name": "RTV: Majdan" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.02389", "54.03389" ] }, "properties": { "name": "RTV: Malbork *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.95778", "53.99528" ] }, "properties": { "name": "RTV: Miastko *ul. Kaszubska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.97806", "54.01917" ] }, "properties": { "name": "RTV: Miastko *ul. Slupska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.22472", "49.78722" ] }, "properties": { "name": "RTV: Miedzybrodzie *Gora Zar*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.50083", "53.95222" ] }, "properties": { "name": "RTV: Miedzyzdroje *Gora Grzywacz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.4325", "53.86611" ] }, "properties": { "name": "RTV: Miedzyzdroje *Lubin*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.43583", "50.29778" ] }, "properties": { "name": "RTV: Mielec *Stadion MOSiR'*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.43583", "50.29944" ] }, "properties": { "name": "RTV: Mielec *Stadion MOSiR*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.45583", "50.29111" ] }, "properties": { "name": "RTV: Mielec [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.04194", "52.335" ] }, "properties": { "name": "RTV: Mielnik *Komin ZGK*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.18361", "50.67056" ] }, "properties": { "name": "RTV: Mieroszow *Wzgorze Cmentarne*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.26806", "51.52222" ] }, "properties": { "name": "RTV: Milicz *Komin SM Barycz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.27111", "51.52694" ] }, "properties": { "name": "RTV: Milicz *ul. Pilsudskiego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.9475", "52.66056" ] }, "properties": { "name": "RTV: Mogilno [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.79083", "53.40444" ] }, "properties": { "name": "RTV: Monki *Kosciol MB Cz. i sw. Kazimierza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.92333", "53.91389" ] }, "properties": { "name": "RTV: Morag *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.29722", "53.86694" ] }, "properties": { "name": "RTV: Mragowo *Spacerowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.53", "51.96556" ] }, "properties": { "name": "RTV: Mszczonow *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.91333", "49.35083" ] }, "properties": { "name": "RTV: Muszyna *Gora Malnik*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.83722", "49.72694" ] }, "properties": { "name": "RTV: Myslenice *Skomielna Czarna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.86667", "52.91667" ] }, "properties": { "name": "RTV: Mysliborz [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.42028", "53.09528" ] }, "properties": { "name": "RTV: Mlawa *Szydlowek*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.34889", "53.13639" ] }, "properties": { "name": "RTV: Mlawa *ul. Instalatorow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.58833", "53.14111" ] }, "properties": { "name": "RTV: Naklo *Park Sobieskiego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.71861", "51.07778" ] }, "properties": { "name": "RTV: Namyslow *Kosciol Sw. Piotra i Pawla*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.70444", "51.07083" ] }, "properties": { "name": "RTV: Namyslow *ZE Opole*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.30889", "49.42083" ] }, "properties": { "name": "RTV: Niedzica *Gora Biala*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.49278", "50.57028" ] }, "properties": { "name": "RTV: Nowa Ruda *Gora Krepiec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.52694", "50.55111" ] }, "properties": { "name": "RTV: Nowa Ruda *Gora Wszystkich Swietych*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.49917", "50.56778" ] }, "properties": { "name": "RTV: Nowa Ruda *Gora Sw. Anny'*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.50194", "50.56667" ] }, "properties": { "name": "RTV: Nowa Ruda *Gora Sw. Anny*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.57694", "53.39639" ] }, "properties": { "name": "RTV: Nowe Miasto Lubawskie *Kurzetnik*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.73778", "49.63333" ] }, "properties": { "name": "RTV: Nowy Sacz *Chruslice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.42222", "49.55694" ] }, "properties": { "name": "RTV: Nowy Sacz *Gora Jezowe*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.56056", "49.65528" ] }, "properties": { "name": "RTV: Nowy Sacz *Gora Wysokie*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.71528", "49.60778" ] }, "properties": { "name": "RTV: Nowy Sacz *Komin MPEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.7", "49.61667" ] }, "properties": { "name": "RTV: Nowy Sacz [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.11833", "49.54333" ] }, "properties": { "name": "RTV: Nowy Targ *Gora Turbacz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.14222", "52.4" ] }, "properties": { "name": "RTV: Nowy Tomysl *Bolewice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.33028", "50.475" ] }, "properties": { "name": "RTV: Nysa *Chopina*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.26194", "50.48083" ] }, "properties": { "name": "RTV: Nysa *Elewator Goswinowice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.34222", "50.46889" ] }, "properties": { "name": "RTV: Nysa *Komin NEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.34083", "50.47861" ] }, "properties": { "name": "RTV: Nysa *Komin PKP Energetyka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.33167", "50.47194" ] }, "properties": { "name": "RTV: Nysa *Kosciol Sw. Piotra i Pawla*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.4325", "50.42611" ] }, "properties": { "name": "RTV: Nysa *Wierzbiecice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.33139", "50.47667" ] }, "properties": { "name": "RTV: Nysa [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.31833", "49.52" ] }, "properties": { "name": "RTV: Ochotnica Dolna *Gora Koci Zamek*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.24722", "49.51389" ] }, "properties": { "name": "RTV: Ochotnica Gorna *Gora Utocze*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.5", "54.03556" ] }, "properties": { "name": "RTV: Olecko *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.42111", "50.87694" ] }, "properties": { "name": "RTV: Olesno *Kosciol Bozego Ciala*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.43639", "50.89111" ] }, "properties": { "name": "RTV: Olesno *ul. Lesna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.42222", "50.87778" ] }, "properties": { "name": "RTV: Olesno *ul. Mickiewicza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.39778", "51.19944" ] }, "properties": { "name": "RTV: Olesnica *Komin ZNTK Olesnica*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.55778", "50.27889" ] }, "properties": { "name": "RTV: Olkusz *Bazylika Sw. Andrzeja Apostola*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.44667", "49.47361" ] }, "properties": { "name": "RTV: Olszanica *Gora Kiczera*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.48611", "53.77083" ] }, "properties": { "name": "RTV: Olsztyn *Dom Studenta nr 11 Bratniak*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.44444", "53.74667" ] }, "properties": { "name": "RTV: Olsztyn *Komin MPEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.52056", "53.75361" ] }, "properties": { "name": "RTV: Olsztyn *Pieczewo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.48528", "53.77972" ] }, "properties": { "name": "RTV: Olsztyn *ul. Dabrowszczakow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.29556", "53.58333" ] }, "properties": { "name": "RTV: Olsztynek *Budynek PROVIMI*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.29583", "53.58444" ] }, "properties": { "name": "RTV: Olsztynek *Elewator PROVIMI*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.41306", "50.79667" ] }, "properties": { "name": "RTV: Opatow *ul. Leszka Czarnego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.41667", "50.8" ] }, "properties": { "name": "RTV: Opatow [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.885", "50.75056" ] }, "properties": { "name": "RTV: Opole *Budynek E Opole*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.92889", "50.66806" ] }, "properties": { "name": "RTV: Opole *Budynek Spolem*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.72806", "50.49528" ] }, "properties": { "name": "RTV: Opole *Chrzelice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.15472", "50.46583" ] }, "properties": { "name": "RTV: Opole *Gora Sw. Anny'*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.15444", "50.46528" ] }, "properties": { "name": "RTV: Opole *Gora Sw. Anny*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.97583", "50.66306" ] }, "properties": { "name": "RTV: Opole *Komin b. ZM PETERS*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.8825", "50.75111" ] }, "properties": { "name": "RTV: Opole *Komin E Opole*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.92056", "50.68667" ] }, "properties": { "name": "RTV: Opole *Komin ECO*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.92389", "50.6625" ] }, "properties": { "name": "RTV: Opole *Korfantego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.94833", "50.64861" ] }, "properties": { "name": "RTV: Opole *Kosciol MB Nieustajacej Pomocy*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.92194", "50.66472" ] }, "properties": { "name": "RTV: Opole *ul. Piastowska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.93333", "50.66667" ] }, "properties": { "name": "RTV: Opole [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.7525", "50.17333" ] }, "properties": { "name": "RTV: Ornontowice *Komin KWK Budryk*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.94028", "53.54944" ] }, "properties": { "name": "RTV: Ostroda *Dylewska Gora*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.98417", "53.69944" ] }, "properties": { "name": "RTV: Ostroda *Komin MPEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.96722", "53.69861" ] }, "properties": { "name": "RTV: Ostroda *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.87806", "52.81806" ] }, "properties": { "name": "RTV: Ostrow Mazowiecka *Komin Forte*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.92861", "52.82444" ] }, "properties": { "name": "RTV: Ostrow Mazowiecka *Podborze*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.67583", "51.57472" ] }, "properties": { "name": "RTV: Ostrow Wielkopolski *Odolanow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.79806", "51.65556" ] }, "properties": { "name": "RTV: Ostrow Wielkopolski *ul. Krotoszynska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.8625", "51.63194" ] }, "properties": { "name": "RTV: Ostrow Wielkopolski *Wysocko Wielkie*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.44556", "50.94806" ] }, "properties": { "name": "RTV: Ostrowiec Swietokrzyski *Huta Ostrowiec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.38972", "50.93861" ] }, "properties": { "name": "RTV: Ostrowiec Swietokrzyski [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.53167", "53.07472" ] }, "properties": { "name": "RTV: Ostroleka *Grabowo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.57222", "53.08139" ] }, "properties": { "name": "RTV: Ostroleka *Kopernika*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.5775", "53.07333" ] }, "properties": { "name": "RTV: Ostroleka *Kosciol Zbawiciela Swiata*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.40222", "52.88417" ] }, "properties": { "name": "RTV: Ostroleka *Rozan*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.62833", "53.07833" ] }, "properties": { "name": "RTV: Ostroleka *Lawy*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.93222", "51.42639" ] }, "properties": { "name": "RTV: Ostrzeszow [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.32639", "50.93722" ] }, "properties": { "name": "RTV: Olawa *Elewator*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.27389", "50.04" ] }, "properties": { "name": "RTV: Oswiecim *Komin Synthos Dwory*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.33167", "51.67778" ] }, "properties": { "name": "RTV: Pabianice *Komin b. LZZ Herbapol*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.00861", "50.46111" ] }, "properties": { "name": "RTV: Paczkow *Komin FMiUP FAMAD*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.965", "51.64306" ] }, "properties": { "name": "RTV: Parczew *ul. 11 Listopada*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.6575", "54.06639" ] }, "properties": { "name": "RTV: Paslek *Kosciol Sw. Bartlomieja*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.70167", "53.92556" ] }, "properties": { "name": "RTV: Pelplin *Komin b. cukrowni Pelplin*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.31417", "53.03556" ] }, "properties": { "name": "RTV: Pelczyce *ul.Pelczyk*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.02417", "52.07556" ] }, "properties": { "name": "RTV: Piaseczno [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.57417", "50.85167" ] }, "properties": { "name": "RTV: Piechowice *Gorzyniec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.52556", "50.53" ] }, "properties": { "name": "RTV: Pinczow *Komin AGROS*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.54472", "50.50972" ] }, "properties": { "name": "RTV: Pinczow *Komin PEC Pinczow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.68556", "51.42444" ] }, "properties": { "name": "RTV: Piotrkow Trybunalski *Komin MZGK C-2*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.68611", "51.40972" ] }, "properties": { "name": "RTV: Piotrkow Trybunalski *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.9275", "53.56972" ] }, "properties": { "name": "RTV: Pisz *Liski*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.73472", "49.43556" ] }, "properties": { "name": "RTV: Piwniczna *Gora Kicarz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.73889", "53.15056" ] }, "properties": { "name": "RTV: Pila *Hotel Gromada Rodlo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.71306", "53.15028" ] }, "properties": { "name": "RTV: Pila *Kosciol NMP Wspomozenia Wiernych*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.74528", "53.12556" ] }, "properties": { "name": "RTV: Pila *Staszyce*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.25639", "52.50889" ] }, "properties": { "name": "RTV: Pniewy [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.56944", "49.29583" ] }, "properties": { "name": "RTV: Polana *Szeroka Laka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.53278", "53.575" ] }, "properties": { "name": "RTV: Police *Komin Zakl. Chemicznych Police*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.06667", "51.4825" ] }, "properties": { "name": "RTV: Polkowice *Komin EC-2*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.07694", "49.61139" ] }, "properties": { "name": "RTV: Poreba Wielka *Nowa Wies*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.94861", "52.39861" ] }, "properties": { "name": "RTV: Poznan *Dom Studencki nr 5*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.98861", "52.43639" ] }, "properties": { "name": "RTV: Poznan *Komin EC Karolin*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.8525", "52.23944" ] }, "properties": { "name": "RTV: Poznan *Mosina*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.90472", "52.45917" ] }, "properties": { "name": "RTV: Poznan *Piatkowo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.92139", "52.40444" ] }, "properties": { "name": "RTV: Poznan *Uniwersytet Ekonomiczny*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.98667", "52.11778" ] }, "properties": { "name": "RTV: Poznan *Srem*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.91667", "52.4" ] }, "properties": { "name": "RTV: Poznan [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.1", "53.76667" ] }, "properties": { "name": "RTV: Polczyn-Zdroj [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.485", "49.90111" ] }, "properties": { "name": "RTV: Pruchnik *Wzniesienie Na Zadach*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.64361", "54.26861" ] }, "properties": { "name": "RTV: Pruszcz Gdanski *Komin Jazbud*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.74306", "52.17528" ] }, "properties": { "name": "RTV: Pruszkow *Komin b. EC Pruszkow II*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.86389", "53.00667" ] }, "properties": { "name": "RTV: Przasnysz *Szosa Ciechanowska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.8525", "51.08778" ] }, "properties": { "name": "RTV: Przedborz *ul. Radomszczanska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.67472", "50.20444" ] }, "properties": { "name": "RTV: Przeginia *Raclawice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.78444", "49.8" ] }, "properties": { "name": "RTV: Przemysl *Komin C Zasanie*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.76611", "49.77361" ] }, "properties": { "name": "RTV: Przemysl *Tatarska Gora*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.78583", "49.81" ] }, "properties": { "name": "RTV: Przemysl *Wojewodzki Szpital*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.57417", "49.83889" ] }, "properties": { "name": "RTV: Przemysl *Srednia*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.57222", "51.35861" ] }, "properties": { "name": "RTV: Przysucha *Kozlowiec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.97222", "51.42194" ] }, "properties": { "name": "RTV: Pulawy *Komin SP ZOZ Pulawy*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.98778", "51.41778" ] }, "properties": { "name": "RTV: Pulawy *Kosciol sw. Brata Alberta*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.98611", "51.41333" ] }, "properties": { "name": "RTV: Pulawy *ul. Sikorskiego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.96667", "51.41667" ] }, "properties": { "name": "RTV: Pulawy [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.67278", "52.55167" ] }, "properties": { "name": "RTV: Plock *Dom Studencki Wczesniak*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.65917", "52.52778" ] }, "properties": { "name": "RTV: Plock *Komin b. mleczarni Mitex*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.68833", "52.58361" ] }, "properties": { "name": "RTV: Plock *Komin Orlen*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.64972", "52.89083" ] }, "properties": { "name": "RTV: Plock *Rachocin*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.69694", "52.54917" ] }, "properties": { "name": "RTV: Plock *ul. Kochanowskiego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.7", "52.55" ] }, "properties": { "name": "RTV: Plock [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.37417", "52.62833" ] }, "properties": { "name": "RTV: Plonsk *Grunwaldzka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.36111", "52.61583" ] }, "properties": { "name": "RTV: Plonsk *Komin PEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.99222", "49.65333" ] }, "properties": { "name": "RTV: Rabka *Gora Lubon Wielki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.21", "50.09778" ] }, "properties": { "name": "RTV: Raciborz *Kosciol Sw. Mikolaja*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.15278", "50.12111" ] }, "properties": { "name": "RTV: Raciborz *Strzybnik*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.19056", "50.085" ] }, "properties": { "name": "RTV: Raciborz *ul. Cmentarna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.37806", "50.50611" ] }, "properties": { "name": "RTV: Radkow *Gora Guzowata*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.15944", "51.42111" ] }, "properties": { "name": "RTV: Radom *Hotel Asystencki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.25", "51.16667" ] }, "properties": { "name": "RTV: Radom *Ilza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.20056", "51.44278" ] }, "properties": { "name": "RTV: Radom *Komin CM Polnoc*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.10722", "51.35528" ] }, "properties": { "name": "RTV: Radom *Komin CM Poludnie*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.11722", "51.40889" ] }, "properties": { "name": "RTV: Radom *Wacyn*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.15", "51.4" ] }, "properties": { "name": "RTV: Radom [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.51472", "51.06611" ] }, "properties": { "name": "RTV: Radomsko *Amelin*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.38972", "51.09222" ] }, "properties": { "name": "RTV: Radomsko *Stobiecko*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.43333", "51.06667" ] }, "properties": { "name": "RTV: Radomsko [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.91333", "50.38361" ] }, "properties": { "name": "RTV: Radzionkow *Komin PEC Bytom*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.89111", "50.39389" ] }, "properties": { "name": "RTV: Radzionkow *Szymaly*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.59861", "51.77556" ] }, "properties": { "name": "RTV: Radzyn Podlaski *Komin SM Spomlek*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.09639", "49.48889" ] }, "properties": { "name": "RTV: Rajcza *Gora Hutyrow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.27111", "51.78139" ] }, "properties": { "name": "RTV: Rawa Mazowiecka *Budynek Logis*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.26222", "51.77278" ] }, "properties": { "name": "RTV: Rawa Mazowiecka *ul. Mszczonowska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.84722", "51.60083" ] }, "properties": { "name": "RTV: Rawicz *Komin Kotlowni ZUK*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.8475", "51.60944" ] }, "properties": { "name": "RTV: Rawicz *ul. Hallera*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.34944", "54.64056" ] }, "properties": { "name": "RTV: Reda *Rekowo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.01333", "54.08222" ] }, "properties": { "name": "RTV: Rewal *DW Radosc*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.09", "54.06694" ] }, "properties": { "name": "RTV: Rewal *Ledzin*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.01444", "54.08" ] }, "properties": { "name": "RTV: Rewal *ul. Dworcowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.55", "50.07028" ] }, "properties": { "name": "RTV: Rybnik *Chwalowice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.52111", "50.13361" ] }, "properties": { "name": "RTV: Rybnik *Komin E Rybnik'*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.52333", "50.13444" ] }, "properties": { "name": "RTV: Rybnik *Komin E Rybnik*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.96833", "51.62389" ] }, "properties": { "name": "RTV: Ryki *Janiszewska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.85528", "49.54583" ] }, "properties": { "name": "RTV: Rymanow *Gora Zamczysko*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.67583", "49.49333" ] }, "properties": { "name": "RTV: Rytro *Gora Cycowka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.10333", "49.3525" ] }, "properties": { "name": "RTV: Rzepedz *Gora Sokoliska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.03389", "50.02917" ] }, "properties": { "name": "RTV: Rzeszow *al. Armii Krajowej*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.98778", "50.05056" ] }, "properties": { "name": "RTV: Rzeszow *Baranowka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.98333", "50.02" ] }, "properties": { "name": "RTV: Rzeszow *Dom Studencki Ikar*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.03056", "50.065" ] }, "properties": { "name": "RTV: Rzeszow *Komin EC Rzeszow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.13", "50.01278" ] }, "properties": { "name": "RTV: Rzeszow *Magdalenka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.04361", "49.9875" ] }, "properties": { "name": "RTV: Rzeszow *Tyczyn*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.00167", "50.03667" ] }, "properties": { "name": "RTV: Rzeszow [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.76444", "50.69833" ] }, "properties": { "name": "RTV: Sandomierz *ul. Mokoszynska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.74306", "50.68417" ] }, "properties": { "name": "RTV: Sandomierz *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.17639", "49.57222" ] }, "properties": { "name": "RTV: Sanok *Dabrowka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.20222", "49.56278" ] }, "properties": { "name": "RTV: Sanok *Gora Parkowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.03278", "49.4325" ] }, "properties": { "name": "RTV: Sanok *Gora Tokarnia*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.19167", "49.56722" ] }, "properties": { "name": "RTV: Sanok *Komin Zakladu Ciepl. SPGK*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.34167", "54.1075" ] }, "properties": { "name": "RTV: Sejny *ul. Konarskiego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.54528", "53.43778" ] }, "properties": { "name": "RTV: Sepolno Krajenskie *Komin MDD*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.34833", "54.24528" ] }, "properties": { "name": "RTV: Sianow *Karnieszewice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.27722", "52.16833" ] }, "properties": { "name": "RTV: Siedlce *Budynek Urzedu Woj.*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.28139", "52.17111" ] }, "properties": { "name": "RTV: Siedlce *Blonie*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.30639", "52.15722" ] }, "properties": { "name": "RTV: Siedlce *Komin PEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.31056", "52.15611" ] }, "properties": { "name": "RTV: Siedlce *Komin Polimex-Mostostal*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.78333", "52.18611" ] }, "properties": { "name": "RTV: Siedlce *Losice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.02056", "50.30444" ] }, "properties": { "name": "RTV: Siemianowice Slaskie *Komin C Siemianowice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.77111", "52.55" ] }, "properties": { "name": "RTV: Siemiatycze *Makarki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.8", "51.61083" ] }, "properties": { "name": "RTV: Sieradz *Elewator Sieradz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.6975", "51.59889" ] }, "properties": { "name": "RTV: Sieradz *Komin PEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.73028", "51.59556" ] }, "properties": { "name": "RTV: Sieradz [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.53972", "50.81583" ] }, "properties": { "name": "RTV: Sitkowka-Nowiny *Komin Hema Promet*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.87972", "51.10778" ] }, "properties": { "name": "RTV: Skarzysko-Kamienna *Komin EC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.79583", "49.96889" ] }, "properties": { "name": "RTV: Skawina *Komin NPA Skawina (2)*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.79639", "49.96778" ] }, "properties": { "name": "RTV: Skawina *Komin NPA Skawina*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.23333", "52.01556" ] }, "properties": { "name": "RTV: Skierniewice *Bartniki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.16972", "51.97167" ] }, "properties": { "name": "RTV: Skierniewice *Komin OSM*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.14333", "51.97333" ] }, "properties": { "name": "RTV: Skierniewice *Kosciol Najsw. Serca Pana Jezusa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.76167", "49.8175" ] }, "properties": { "name": "RTV: Skoczow *Simoradz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.27472", "52.2575" ] }, "properties": { "name": "RTV: Sochaczew *Komin d. ZWCh Chemitex*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.09833", "52.54611" ] }, "properties": { "name": "RTV: Sokolow Podlaski *Chruszczewka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.24528", "50.68444" ] }, "properties": { "name": "RTV: Sokolowsko *Polana*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.26111", "53.02278" ] }, "properties": { "name": "RTV: Solec Kujawski *Kabat*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.235", "53.07472" ] }, "properties": { "name": "RTV: Solec Kujawski *Komin KPEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.48917", "49.38278" ] }, "properties": { "name": "RTV: Solina *Gora Jawor (2)*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.46889", "49.39167" ] }, "properties": { "name": "RTV: Solina *Gora Jawor*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.44861", "49.40028" ] }, "properties": { "name": "RTV: Solina *Gora Plasza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.06028", "50.57778" ] }, "properties": { "name": "RTV: Stalowa Wola *Budynek Polimex-Mostostal*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.08056", "50.55333" ] }, "properties": { "name": "RTV: Stalowa Wola *Komin E Stalowa Wola*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.06667", "50.56667" ] }, "properties": { "name": "RTV: Stalowa Wola [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.07639", "51.06278" ] }, "properties": { "name": "RTV: Starachowice *Komin kotlowni starego szpitala*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.09389", "51.04889" ] }, "properties": { "name": "RTV: Starachowice *ul. Martenowska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.005", "53.35028" ] }, "properties": { "name": "RTV: Stargard Szczecinski *Komin PEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.03806", "53.34083" ] }, "properties": { "name": "RTV: Stargard Szczecinski *ul. Struga*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.57917", "53.92222" ] }, "properties": { "name": "RTV: Starogard Gdanski *Elewator Jablowo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.52556", "53.96833" ] }, "properties": { "name": "RTV: Starogard Gdanski [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.88972", "50.28417" ] }, "properties": { "name": "RTV: Stronie Slaskie *Osiedle Morawka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.50889", "49.71722" ] }, "properties": { "name": "RTV: Stryszawa *Gora Wojewodka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.63806", "49.83083" ] }, "properties": { "name": "RTV: Stryszow *Gora Stryszow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.27167", "50.51833" ] }, "properties": { "name": "RTV: Strzelce Opolskie *Komin ECO*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.085", "50.77083" ] }, "properties": { "name": "RTV: Strzelin *ZWiK Strzelin*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.80167", "49.88111" ] }, "properties": { "name": "RTV: Strzyzow *ul. Dzialy*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.69778", "49.17556" ] }, "properties": { "name": "RTV: Stuposiany *Gora Czereszna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.61167", "49.72889" ] }, "properties": { "name": "RTV: Sucha Beskidzka *Gora Sumerowka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.875", "54.19583" ] }, "properties": { "name": "RTV: Suwalki *Gora Krzemianucha*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.96722", "54.10444" ] }, "properties": { "name": "RTV: Suwalki *Komin PEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.93583", "54.11722" ] }, "properties": { "name": "RTV: Suwalki *Pulaskiego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.25583", "49.60167" ] }, "properties": { "name": "RTV: Szczawa *Gora Kiczora*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.50722", "49.41194" ] }, "properties": { "name": "RTV: Szczawnica *Gora Jarmuta*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.55444", "49.4675" ] }, "properties": { "name": "RTV: Szczawnica *Gora Prehyba - Wyciag*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.55389", "49.46722" ] }, "properties": { "name": "RTV: Szczawnica *Gora Prehyba*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.55528", "53.43278" ] }, "properties": { "name": "RTV: Szczecin *Budynek Pazim Center*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.57111", "53.35472" ] }, "properties": { "name": "RTV: Szczecin *Komin b.ZWCh Chemitex-Wiskord*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.67694", "53.33417" ] }, "properties": { "name": "RTV: Szczecin *Kolowo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.54389", "53.47528" ] }, "properties": { "name": "RTV: Szczecin *Warszewo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.71306", "53.69222" ] }, "properties": { "name": "RTV: Szczecinek" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.61333", "53.75528" ] }, "properties": { "name": "RTV: Szczecinek *Dalecino*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.70361", "53.70833" ] }, "properties": { "name": "RTV: Szczecinek *Gora Winnicza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.70694", "53.67778" ] }, "properties": { "name": "RTV: Szczecinek *ul. Fabryczna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.00583", "49.72111" ] }, "properties": { "name": "RTV: Szczyrk *Bila*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.03139", "49.72" ] }, "properties": { "name": "RTV: Szczyrk *Hotel Panorama Centrum*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.98778", "49.69528" ] }, "properties": { "name": "RTV: Szczyrk *ul. Salmopolska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.02", "49.72111" ] }, "properties": { "name": "RTV: Szczyrk *ul. Wrzosowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.45972", "50.41194" ] }, "properties": { "name": "RTV: Szczytna *Gora Szczytnik*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.45278", "50.40167" ] }, "properties": { "name": "RTV: Szczytna *Szklana Gora*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.56167", "52.35806" ] }, "properties": { "name": "RTV: Slubice *Kosciol Swietego Ducha*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.85333", "52.28944" ] }, "properties": { "name": "RTV: Slupca *Mlyn Gorczycy*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.53528", "50.55111" ] }, "properties": { "name": "RTV: Slupiec *Gora Koscielec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.00778", "54.46944" ] }, "properties": { "name": "RTV: Slupsk *Banacha*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.93889", "54.48611" ] }, "properties": { "name": "RTV: Slupsk *Bierkowo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.99222", "54.44694" ] }, "properties": { "name": "RTV: Slupsk *Kobylnica*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.00194", "54.45306" ] }, "properties": { "name": "RTV: Slupsk *Komin Sydkraft EC Slupsk KR-1*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.01444", "54.48" ] }, "properties": { "name": "RTV: Slupsk *Komin Sydkraft EC Slupsk KR-2*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.01972", "54.47444" ] }, "properties": { "name": "RTV: Slupsk *Komin ZPZ Stolon*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.82889", "51.97056" ] }, "properties": { "name": "RTV: Tarczyn *Komin Binder International*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.26444", "49.465" ] }, "properties": { "name": "RTV: Tarnawa *Gora Makowka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.63861", "50.52417" ] }, "properties": { "name": "RTV: Tarnobrzeg *Komin KS Machow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.69444", "50.58889" ] }, "properties": { "name": "RTV: Tarnobrzeg *ul. Borow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.00556", "50.03611" ] }, "properties": { "name": "RTV: Tarnow *Centrum Handlowe Echo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.04833", "49.84722" ] }, "properties": { "name": "RTV: Tarnow *Gora Morgi*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.91139", "49.88444" ] }, "properties": { "name": "RTV: Tarnow *Gora Wal*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.01611", "49.98472" ] }, "properties": { "name": "RTV: Tarnow *Gora Sw. Marcina*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.95", "49.88056" ] }, "properties": { "name": "RTV: Tarnow *Lichwin''*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.92833", "49.89167" ] }, "properties": { "name": "RTV: Tarnow *Lichwin*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.84889", "50.44167" ] }, "properties": { "name": "RTV: Tarnowskie Gory [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.77778", "54.09444" ] }, "properties": { "name": "RTV: Tczew [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.045", "51.54778" ] }, "properties": { "name": "RTV: Tomaszow Mazowiecki *Komin b. ZWCh Wistom*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.01417", "51.53028" ] }, "properties": { "name": "RTV: Tomaszow Mazowiecki *Moscickiego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.69306", "53.04778" ] }, "properties": { "name": "RTV: Torun *Komin Cergia*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.59278", "53.01111" ] }, "properties": { "name": "RTV: Torun *Moniuszki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.60167", "53.0175" ] }, "properties": { "name": "RTV: Torun *ul. Szosa Chelminska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.64083", "53.01833" ] }, "properties": { "name": "RTV: Torun *ul. Szosa Lubicka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.61667", "53.01667" ] }, "properties": { "name": "RTV: Torun [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.54306", "49.66444" ] }, "properties": { "name": "RTV: Trojca *Gora Jaworow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.6025", "52.90833" ] }, "properties": { "name": "RTV: Trzcinsko-Zdroj *Gogolice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.26806", "54.06194" ] }, "properties": { "name": "RTV: Trzebiatow *ul. Wodna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.09333", "51.28667" ] }, "properties": { "name": "RTV: Trzebnica *Raszow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.06389", "51.31" ] }, "properties": { "name": "RTV: Trzebnica [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.74361", "53.3775" ] }, "properties": { "name": "RTV: Turosl *ul. Jana Pawla II*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.01722", "50.10556" ] }, "properties": { "name": "RTV: Tychy *Komin EC Tychy*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.71417", "49.45611" ] }, "properties": { "name": "RTV: Tylawa *Gora Dzial*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.03417", "49.3875" ] }, "properties": { "name": "RTV: Tylicz *Gora Horb*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.42111", "49.46806" ] }, "properties": { "name": "RTV: Tylmanowa *Gora Matuszek*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.305", "49.71889" ] }, "properties": { "name": "RTV: Tymbark *Gora Podlopien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.16972", "49.47167" ] }, "properties": { "name": "RTV: Ujsoly *Gora Kubiesowka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.81944", "49.68306" ] }, "properties": { "name": "RTV: Ustron *Gora Czantoria - Kolejka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.81917", "49.68306" ] }, "properties": { "name": "RTV: Ustron *Gora Czantoria*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.59444", "49.42139" ] }, "properties": { "name": "RTV: Ustrzyki Dolne *Gora Gromadzyn*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.5825", "49.44444" ] }, "properties": { "name": "RTV: Ustrzyki Dolne *Gora Laworta*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.44361", "50.69111" ] }, "properties": { "name": "RTV: Walim *Gora Ostra*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.01222", "52.15333" ] }, "properties": { "name": "RTV: Warszawa *Budynek Netia*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.99972", "52.23278" ] }, "properties": { "name": "RTV: Warszawa *Budynek Rondo 1*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.00222", "52.24417" ] }, "properties": { "name": "RTV: Warszawa *Blekitny Wiezowiec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.96361", "52.21861" ] }, "properties": { "name": "RTV: Warszawa *Dworzec Zachodni*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.00472", "52.22778" ] }, "properties": { "name": "RTV: Warszawa *Hotel Marriott*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.12889", "52.26806" ] }, "properties": { "name": "RTV: Warszawa *Komin C Kaweczyn*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.99333", "52.29472" ] }, "properties": { "name": "RTV: Warszawa *Komin EC Zeran*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.01389", "52.24639" ] }, "properties": { "name": "RTV: Warszawa *Kosciol Sw. Anny*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.88361", "52.0375" ] }, "properties": { "name": "RTV: Warszawa *Leszczynka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.00611", "52.23167" ] }, "properties": { "name": "RTV: Warszawa *Palac Kultury i Nauki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.88306", "52.07278" ] }, "properties": { "name": "RTV: Warszawa *Raszyn*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.04472", "52.14472" ] }, "properties": { "name": "RTV: Warszawa *ul. Dereniowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.0025", "52.19417" ] }, "properties": { "name": "RTV: Warszawa *ul. Woloska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.20444", "53.19444" ] }, "properties": { "name": "RTV: Wasilkow *Komin FWR Biruna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.21222", "50.77917" ] }, "properties": { "name": "RTV: Walbrzych *Gora Chelmiec - Wieza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.21222", "50.77917" ] }, "properties": { "name": "RTV: Walbrzych *Gora Chelmiec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.28444", "50.81278" ] }, "properties": { "name": "RTV: Walbrzych *Komin PEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.24278", "50.75528" ] }, "properties": { "name": "RTV: Walbrzych *Komin WZK Victoria*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.465", "53.26639" ] }, "properties": { "name": "RTV: Walcz *Komin ZEC KR-2*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.26361", "53.17083" ] }, "properties": { "name": "RTV: Walcz *Rusinowo*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.13", "49.62417" ] }, "properties": { "name": "RTV: Wegierska Gorka *Gora Przybedza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.00639", "52.41444" ] }, "properties": { "name": "RTV: Wegrow *Komin ZM Hochland*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.25694", "54.61" ] }, "properties": { "name": "RTV: Wejherowo *Komin C Nanice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.23306", "54.60194" ] }, "properties": { "name": "RTV: Wejherowo *Kosciol Sw. Leona Wielkiego i St. Kostki*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.24139", "54.605" ] }, "properties": { "name": "RTV: Wejherowo [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.55167", "49.15778" ] }, "properties": { "name": "RTV: Wetlina" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.32778", "52.86306" ] }, "properties": { "name": "RTV: Wielen *Rosko*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.56806", "51.23111" ] }, "properties": { "name": "RTV: Wielun *Komin EC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.58083", "51.20917" ] }, "properties": { "name": "RTV: Wielun *ul. Czestochowska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.56667", "51.21667" ] }, "properties": { "name": "RTV: Wielun [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.26944", "51.35" ] }, "properties": { "name": "RTV: Wieruszow *Galewice*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.17639", "51.28667" ] }, "properties": { "name": "RTV: Wieruszow *Komin Pfleiderer Prospan*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.14", "49.89528" ] }, "properties": { "name": "RTV: Winiary" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.89806", "49.61889" ] }, "properties": { "name": "RTV: Wisla *Gora Kozince*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.03194", "49.68472" ] }, "properties": { "name": "RTV: Wisla *Gora Skrzyczne - Schronisko (2)*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.03194", "49.68444" ] }, "properties": { "name": "RTV: Wisla *Gora Skrzyczne - Schronisko*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.02972", "49.68528" ] }, "properties": { "name": "RTV: Wisla *Gora Skrzyczne*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.69111", "51.01722" ] }, "properties": { "name": "RTV: Wlen *Modrzewie*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.4375", "50.01444" ] }, "properties": { "name": "RTV: Wodzislaw Slaski *Jedlownik*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.93333", "50.94" ] }, "properties": { "name": "RTV: Wojcieszow *Gora Milek*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.77944", "50.36083" ] }, "properties": { "name": "RTV: Wolbrom *Zasepiec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.11611", "52.10361" ] }, "properties": { "name": "RTV: Wolsztyn *Komin WFM*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.41", "49.32528" ] }, "properties": { "name": "RTV: Wolkowyja *Gora Czakow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.26556", "52.35722" ] }, "properties": { "name": "RTV: Wolomin *Komin ZEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.6475", "51.33556" ] }, "properties": { "name": "RTV: Wolow *Kosciol Sw. Wawrzynca*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.02833", "51.1" ] }, "properties": { "name": "RTV: Wroclaw *Budynek Arkady*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.05889", "51.10917" ] }, "properties": { "name": "RTV: Wroclaw *Budynek PWr ITA*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.01889", "51.09472" ] }, "properties": { "name": "RTV: Wroclaw *Budynek Sky Tower*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.0675", "51.11444" ] }, "properties": { "name": "RTV: Wroclaw *Dom Studencki Kredka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.71167", "50.86528" ] }, "properties": { "name": "RTV: Wroclaw *Gora Sleza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.02444", "51.12361" ] }, "properties": { "name": "RTV: Wroclaw *Komin EC Wroclaw*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.03", "51.11139" ] }, "properties": { "name": "RTV: Wroclaw *Kosciol Garnizonowy*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.87333", "51.14444" ] }, "properties": { "name": "RTV: Wroclaw *Mlyn Lesnica*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.96028", "51.11278" ] }, "properties": { "name": "RTV: Wroclaw *ul. Gubinska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.02139", "50.98333" ] }, "properties": { "name": "RTV: Wroclaw *Zorawina*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.03333", "51.11667" ] }, "properties": { "name": "RTV: Wroclaw [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.55944", "52.33528" ] }, "properties": { "name": "RTV: Wrzesnia *ul. Czerniejewska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.44306", "52.60917" ] }, "properties": { "name": "RTV: Wyszkow *Komin PEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.28861", "53.01278" ] }, "properties": { "name": "RTV: Wagrowiec *Chojna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.28694", "52.94306" ] }, "properties": { "name": "RTV: Wagrowiec *Golancz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.20472", "52.81528" ] }, "properties": { "name": "RTV: Wagrowiec *ul. Mickiewicza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.19972", "52.80889" ] }, "properties": { "name": "RTV: Wagrowiec [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.39583", "54.79722" ] }, "properties": { "name": "RTV: Wladyslawowo *Kosciol Wniebowziecia NMP*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.08306", "52.67278" ] }, "properties": { "name": "RTV: Wloclawek *Dom Studenta PWSZ*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.04889", "52.66056" ] }, "properties": { "name": "RTV: Wloclawek *Komin C Zazamcze*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.09889", "52.65194" ] }, "properties": { "name": "RTV: Wloclawek *Komin MPEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.06556", "52.655" ] }, "properties": { "name": "RTV: Wloclawek *pl. Wolnosci*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.09806", "52.68333" ] }, "properties": { "name": "RTV: Wloclawek *Szpetal Gorny - Parafia*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.09444", "52.6725" ] }, "properties": { "name": "RTV: Wloclawek *Szpetal Gorny*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.07556", "52.67278" ] }, "properties": { "name": "RTV: Wloclawek *Zawisle*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.07111", "52.66444" ] }, "properties": { "name": "RTV: Wloclawek [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.53694", "51.55333" ] }, "properties": { "name": "RTV: Wlodawa *Zolnierzy WiN*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.55", "51.55" ] }, "properties": { "name": "RTV: Wlodawa [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.925", "51" ] }, "properties": { "name": "RTV: Wloszczowa *Dobromierz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.81222", "50.29889" ] }, "properties": { "name": "RTV: Zabrze *Komin EC Zabrze*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.29611", "49.3925" ] }, "properties": { "name": "RTV: Zahoczewie *Gora Szerokie*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.94583", "49.29778" ] }, "properties": { "name": "RTV: Zakopane *Gora Gubalowka'*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.93667", "49.30833" ] }, "properties": { "name": "RTV: Zakopane *Gora Gubalowka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.98278", "49.23278" ] }, "properties": { "name": "RTV: Zakopane *Gora Kasprowy Wierch*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.9725", "49.29194" ] }, "properties": { "name": "RTV: Zakopane *Wzgorze Antalowka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.26083", "50.60833" ] }, "properties": { "name": "RTV: Zamosc *Feliksowka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.26444", "50.71417" ] }, "properties": { "name": "RTV: Zamosc *Partyzantow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.3975", "50.52389" ] }, "properties": { "name": "RTV: Zamosc *Tarnawatka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.25", "50.71667" ] }, "properties": { "name": "RTV: Zamosc [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.54", "49.23222" ] }, "properties": { "name": "RTV: Zatwarnica *Gora Wierszek*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.51833", "49.62833" ] }, "properties": { "name": "RTV: Zawoja *Gora Kolisty Gron*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.54444", "49.65778" ] }, "properties": { "name": "RTV: Zawoja *Gora Miskowcow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.93639", "51.60111" ] }, "properties": { "name": "RTV: Zdunska Wola [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.31556", "51.95889" ] }, "properties": { "name": "RTV: Zgierz *Ozorkow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.39833", "51.84917" ] }, "properties": { "name": "RTV: Zgierz *ul. Struga*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.00639", "51.15361" ] }, "properties": { "name": "RTV: Zgorzelec *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.46083", "51.91528" ] }, "properties": { "name": "RTV: Zielona Gora *Gora Wilkanowska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.53361", "51.93528" ] }, "properties": { "name": "RTV: Zielona Gora *GPZ Braniborska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.27806", "52.3475" ] }, "properties": { "name": "RTV: Zielona Gora *Jemiolow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.44722", "51.94194" ] }, "properties": { "name": "RTV: Zielona Gora *Komin Wizako*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.495", "51.92722" ] }, "properties": { "name": "RTV: Zielona Gora *Ptasia*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.50861", "51.92583" ] }, "properties": { "name": "RTV: Zielona Gora *Stary Browar*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.50417", "51.92972" ] }, "properties": { "name": "RTV: Zielona Gora *ul. Kukulcza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.51361", "51.9275" ] }, "properties": { "name": "RTV: Zielona Gora *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.5", "51.93333" ] }, "properties": { "name": "RTV: Zielona Gora [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.01", "53.54556" ] }, "properties": { "name": "RTV: Zlocieniec *Kosciol Sw. Jadwigi Krolowej*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.04833", "53.34667" ] }, "properties": { "name": "RTV: Zlotow *Komin Sydkraft*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.25694", "52.35694" ] }, "properties": { "name": "RTV: Lanieta *Witoldow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.49139", "53.61972" ] }, "properties": { "name": "RTV: Lansk *Osrodek URM*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.19028", "49.40111" ] }, "properties": { "name": "RTV: Lapsze Wyzne *Gora Grandeus*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.84444", "50.13444" ] }, "properties": { "name": "RTV: Laziska Gorne *Komin E Laziska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.06444", "53.71944" ] }, "properties": { "name": "RTV: Lobez *Toporzyk*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.62972", "53.63139" ] }, "properties": { "name": "RTV: Lobez *ul. Podgorna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.46056", "51.75861" ] }, "properties": { "name": "RTV: Lodz *al. Pilsudskiego - Pekao*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.46083", "51.75833" ] }, "properties": { "name": "RTV: Lodz *al. Pilsudskiego - SDM*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.46333", "51.76861" ] }, "properties": { "name": "RTV: Lodz *Budynek MODGiK*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.4625", "51.76833" ] }, "properties": { "name": "RTV: Lodz *Budynek Textilimpex*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.45", "51.74611" ] }, "properties": { "name": "RTV: Lodz *Dom Studenta nr 7 PL*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.45889", "51.71361" ] }, "properties": { "name": "RTV: Lodz *Komin b. ZEC Ustronna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.50417", "51.76111" ] }, "properties": { "name": "RTV: Lodz *Komin b. ZWCh Chemitex-Anilana*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.53778", "51.74556" ] }, "properties": { "name": "RTV: Lodz *Komin EC-4*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.46083", "51.77028" ] }, "properties": { "name": "RTV: Lodz *Sienkiewicza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.50694", "51.79528" ] }, "properties": { "name": "RTV: Lodz *ul. Brzezinska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.46028", "51.75778" ] }, "properties": { "name": "RTV: Lodz *ul. Piotrkowska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.95333", "51.77917" ] }, "properties": { "name": "RTV: Lodz *Zygry*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.46667", "51.75" ] }, "properties": { "name": "RTV: Lodz [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.08806", "53.16194" ] }, "properties": { "name": "RTV: Lomza *Hotel Pielegniarek*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.03417", "53.17083" ] }, "properties": { "name": "RTV: Lomza *Komin CM*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.09583", "53.16278" ] }, "properties": { "name": "RTV: Lomza *Szosa Zambrowska*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.08333", "53.17083" ] }, "properties": { "name": "RTV: Lomza *Wieza Cisnien*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.94333", "52.11639" ] }, "properties": { "name": "RTV: Lowicz *ul. Seminaryjna*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.42222", "49.56444" ] }, "properties": { "name": "RTV: Lacko *Gora Cebulowka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.75583", "50.77139" ] }, "properties": { "name": "RTV: Sciegny *Gora Pohulanka*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.49139", "50.84083" ] }, "properties": { "name": "RTV: Swidnica *Katedra sw. Stanislawa i Waclawa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.47417", "50.86472" ] }, "properties": { "name": "RTV: Swidnica *Komin MZEC*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.70778", "51.22556" ] }, "properties": { "name": "RTV: Swidnik *Komin Dalkia Swidnik*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.37056", "53.46361" ] }, "properties": { "name": "RTV: Swiecie *Dolsk*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.30556", "50.89139" ] }, "properties": { "name": "RTV: Swieradow-Zdroj *Gora Stog Izerski*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.33861", "50.92028" ] }, "properties": { "name": "RTV: Swieradow-Zdroj *Gora Zajecznik*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.32972", "50.88389" ] }, "properties": { "name": "RTV: Swieradow-Zdroj *Gora Swieradowiec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.90528", "51.01167" ] }, "properties": { "name": "RTV: Swierzawa *ul. Mickiewicza*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.26111", "53.91722" ] }, "properties": { "name": "RTV: Swinoujscie *Chrobrego*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "14.24778", "53.90833" ] }, "properties": { "name": "RTV: Swinoujscie [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.47806", "51.74833" ] }, "properties": { "name": "RTV: Zagan *Wichow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.1", "51.6" ] }, "properties": { "name": "RTV: Zary *Olbrachtow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.12889", "51.625" ] }, "properties": { "name": "RTV: Zary *Wieza wodociagowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.15", "51.63333" ] }, "properties": { "name": "RTV: Zary [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.79444", "49.375" ] }, "properties": { "name": "RTV: Zegiestow Wies *Gora Cypel*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.80667", "49.35028" ] }, "properties": { "name": "RTV: Zegiestow-Zdroj *Gora Kiczera*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "21.89389", "51.80778" ] }, "properties": { "name": "RTV: Zelechow *ul. Traugutta*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.55194", "51.03361" ] }, "properties": { "name": "RTV: Zmudz *Leszczany*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.70806", "52.86194" ] }, "properties": { "name": "RTV: Znin *Komin b. ZP Pozmlecz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "17.75528", "52.85444" ] }, "properties": { "name": "RTV: Znin *Kosciol Sw. Marcina*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.62722", "50.04167" ] }, "properties": { "name": "RTV: Zory *ul. Szybowa*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.90667", "53.06667" ] }, "properties": { "name": "RTV: Zuromin [miasto]" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.44833", "52.07028" ] }, "properties": { "name": "RTV: Zyrardow *Komin PEC Zyrardow*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.19611", "49.66" ] }, "properties": { "name": "RTV: Zywiec *Gora Grojec*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.21806", "49.68556" ] }, "properties": { "name": "RTV: Zywiec *Komin EKOTERM*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.29861", "49.74472" ] }, "properties": { "name": "RTV: Zywiec *Lysina*" } }
