@@ -1,4 +1,4 @@
-#Zadanie 1a, 1b
+#Zadanie 1a
 
 Importowanie danych z pliku `Train.csv` do systemów baz danych:
 
@@ -141,7 +141,7 @@ Zamienić string zawierający tagi na tablicę napisów z tagami następnie zlic
 W celu zamiany formatu danych w bazie MongoDB napisałem program w języku C, który wykorzystuje sterownik `C MongoDB Driver`. Aby sterownik mógł działać prawidłowo wymaga on dodatkowo biblioteki `Libbson`, natomiast operacje na dokumentach json pobranych z bazy wykonuję za pomocą `Libjson`.
 
 * `libmongoc wersja 1.0.2`
-* `libbson `wersja 1.0.0`
+* `libbson wersja 1.0.0`
 * `libjson wersja 0.10`
 
 Kod programu znajduje się: [tutaj](./zadanie-1c-mongodb).
@@ -152,10 +152,46 @@ Wyszukać w sieci dane zawierające obiekty GeoJSON. Następnie dane zapisać w 
 
 ##Dane
 
-W sieci znalazłem wykaz wszystkich stacji RTV zawierający współżędne i opis wszystkich nadajników znajdujących się na terenie polskii. Dane zostały udostępnione na stronie radiopolska.pl w postaci pliku csv i są dostępne pod adresem http://old.radiopolska.pl/wykaz/lokal2csv.php.
+W sieci znalazłem wykaz wszystkich stacji RTV zawierający współżędne i opis wszystkich nadajników znajdujących się na terenie polski. Dane zostały udostępnione na stronie http://radiopolska.pl w postaci pliku csv i są dostępne pod adresem http://old.radiopolska.pl/wykaz/lokal2csv.php.
 
 ##Modyfikacja danych
 
-Przed dokonaniem importu do bazy danych, musimy przekształcić plik z formatu csv na format json. Aby to zrobić na[pisałem w tym celu program w języku C, który tworzy plik `stacje-nadawcze.json` i następnie konwertuje poszczególne linie pliku csv na odpowiadające mi obiekty json.
+Przed dokonaniem importu do bazy danych, musimy przekształcić plik z formatu `csv` na format `json`. Aby to zrobić napisałem w tym celu program w języku C, który konwertuje kolejne linie pliku `radiopolska_obiekty.csv` na odpowiadające mi obiekty `json`, które następnie zapisuje do pliku `stations.json`.
 
-Kod programu znajduje się: [tutaj](./zadanie-1d-geoparser).
+Kod programu znajduje się: [tutaj](./zadanie-1d-json-parser).
+
+##Importowanie danych do MongoDB
+
+W celu wykonania importu danych do bazy MongoDB należy użyć polecenia `mongoimport` z odpowiednimi opcjami. Dodatkowo polecenie importu zostało poprzedzone poleceniem `time` mierzącym czas wykonania importu.
+
+###Import
+
+Plik `stations.json` importujemy do bazy danych poleceniem:
+
+```sh
+user@host:~$ time mongoimport -d train -c train --type csv --headerline --file train-modified.csv
+connected to: 127.0.0.1
+Sun Nov  9 21:15:45.035         Progress: 25525519/7253916754   0%
+Sun Nov  9 21:15:45.035             21100   7033/second
+Sun Nov  9 21:15:48.000         Progress: 74346367/7253916754   1%
+Sun Nov  9 21:15:48.000             61800   10300/second
+...
+Sun Nov  9 21:27:31.000         Progress: 7189920626/7253916754 99%
+Sun Nov  9 21:27:31.000             5980900 8435/second
+Sun Nov  9 21:27:34.001         Progress: 7232691044/7253916754 99%
+Sun Nov  9 21:27:34.001             6016600 8450/second
+Sun Nov  9 21:27:35.473 check 9 6034195
+Sun Nov  9 21:27:35.509 imported 6034194 objects
+```
+
+###Czas wykonania
+
+```sh
+real    11m54.168s
+user    1m32.571s
+sys     0m12.549s
+```
+
+Całkowity czas trwania importu do bazy trwał około 11 minut i 54 sekund.
+
+##Zapytanie 1
