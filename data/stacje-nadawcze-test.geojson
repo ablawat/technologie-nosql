@@ -1,23 +1,10 @@
 { "type": "FeatureCollection", "features": [
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.68972", "52.8825" ] }, "properties": { "name": "RTV: Aleksandrow Kujawski *Komin Budkrusz*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.3625", "49.89583" ] }, "properties": { "name": "RTV: Andrychow *Wieprz*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.33778", "49.85194" ] }, "properties": { "name": "RTV: Andrychow *Wieza Cisnien*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.98611", "53.83444" ] }, "properties": { "name": "RTV: Augustow *Komin MPEC GIGA*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.29917", "49.33444" ] }, "properties": { "name": "RTV: Baligrod *Gora Kiczera*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.68417", "53.8275" ] }, "properties": { "name": "RTV: Barczewo *Komin MSI*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "16.74806", "50.51139" ] }, "properties": { "name": "RTV: Bardo Slaskie *Wzgorze Rozancowe*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "20.82056", "54.25444" ] }, "properties": { "name": "RTV: Bartoszyce *ul. Kajki*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.14222", "50.35" ] }, "properties": { "name": "RTV: Bedzin *Komin E Lagisza*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.04056", "49.89556" ] }, "properties": { "name": "RTV: Bestwina *Komin Promet*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.35667", "51.36583" ] }, "properties": { "name": "RTV: Belchatow *ul. Czaplinecka*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.18778", "52.03806" ] }, "properties": { "name": "RTV: Biala Podlaska *al. Solidarnosci*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.11167", "52.04694" ] }, "properties": { "name": "RTV: Biala Podlaska *Budynek WSzS*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.07083", "52.03472" ] }, "properties": { "name": "RTV: Biala Podlaska *Warszawska*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "15.68611", "53.88611" ] }, "properties": { "name": "RTV: Bialogard *Slawoborze*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.8775", "52.6975" ] }, "properties": { "name": "RTV: Bialowieza *ul. Waszkiewicza*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.17333", "53.13444" ] }, "properties": { "name": "RTV: Bialystok *Budynek Urzedu Miasta*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.15861", "53.12778" ] }, "properties": { "name": "RTV: Bialystok *Budynek UwB*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.12083", "53.14583" ] }, "properties": { "name": "RTV: Bialystok *Cerkiew Sw. Ducha*" } },
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "23.14944", "53.1275" ] }, "properties": { "name": "RTV: Bialystok *Cieszynska*" } }
+{ "type": "Feature", "geometry": { "_id": "1", "type": "Point", "coordinates": [ "18.68972", "52.8825" ] }, "properties": { "name": "RTV: Aleksandrow Kujawski *Komin Budkrusz*" } },
+{ "type": "Feature", "geometry": { _id": "2", "type": "Point", "coordinates": [ "19.3625", "49.89583" ] }, "properties": { "name": "RTV: Andrychow *Wieprz*" } },
+{ "type": "Feature", "geometry": { _id": "3", "type": "Point", "coordinates": [ "19.33778", "49.85194" ] }, "properties": { "name": "RTV: Andrychow *Wieza Cisnien*" } },
+{ "type": "Feature", "geometry": { _id": "4", "type": "Point", "coordinates": [ "22.98611", "53.83444" ] }, "properties": { "name": "RTV: Augustow *Komin MPEC GIGA*" } },
+{ "type": "Feature", "geometry": { _id": "5", "type": "Point", "coordinates": [ "22.29917", "49.33444" ] }, "properties": { "name": "RTV: Baligrod *Gora Kiczera*" } },
+{ "type": "Feature", "geometry": { _id": "6", "type": "Point", "coordinates": [ "20.68417", "53.8275" ] }, "properties": { "name": "RTV: Barczewo *Komin MSI*" } },
+{ "type": "Feature", "geometry": { _id": "7", "type": "Point", "coordinates": [ "23.14944", "53.1275" ] }, "properties": { "name": "RTV: Bialystok *Cieszynska*" } }
 ]
 }
