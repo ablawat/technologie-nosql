@@ -62,18 +62,6 @@ sys     0m12.549s
 
 Całkowity czas trwania importu do bazy trwał około 11 minut i 54 sekund.
 
-###Test
-
-```sh
-user@host:~$ mongo
-MongoDB shell version: 2.4.9
-connecting to: test
-> use train
-switched to db train
-> db.train.count()
-6034194
-```
-
 ##Importowanie danych do PostgreSQL
 
 Aby wykonać import danych do bazy PostgreSQL należy napisać skrypt SQL zawierający zapytanie tworzące odpowiednią tabelę oraz komendę COPY.
@@ -115,6 +103,8 @@ sys     0m0.009s
 
 Całkowity czas trwania importu do bazy trwał około 15 minut i 47 sekund.
 
+#Zadanie 1b
+
 ###Test
 
 ```sh
@@ -130,7 +120,17 @@ train=# SELECT COUNT(*) FROM train;
  6034194
 (1 row)
 ```
+###Test
 
+```sh
+user@host:~$ mongo
+MongoDB shell version: 2.4.9
+connecting to: test
+> use train
+switched to db train
+> db.train.count()
+6034194
+```
 
 #Zadanie 1c
 
@@ -140,8 +140,22 @@ Zamienić string zawierający tagi na tablicę napisów z tagami następnie zlic
 
 W celu zamiany formatu danych w bazie MongoDB napisałem program w języku C, który wykorzystuje sterownik `C MongoDB Driver`. Aby sterownik mógł działać prawidłowo wymaga on dodatkowo biblioteki `Libbson`, natomiast operacje na dokumentach json pobranych z bazy wykonuję za pomocą `Libjson`.
 
-`libmongoc` wersja 1.0.2
-`libbson`   wersja 1.0.0
-`libjson`   wersja 0.10
+* `libmongoc wersja 1.0.2`
+* `libbson `wersja 1.0.0`
+* `libjson wersja 0.10`
 
-Kod programu znajduje się: [tutaj](./zadanie-mongodb).
+Kod programu znajduje się: [tutaj](./zadanie-1c-mongodb).
+
+#Zadanie 1d
+
+Wyszukać w sieci dane zawierające obiekty GeoJSON. Następnie dane zapisać w bazie MongoDB. Dla zapisanych danych przygotować co najmniej 6 różnych geospatial queries (w tym, co najmniej po jednym, dla obiektów Point, LineString i Polygon).
+
+##Dane
+
+W sieci znalazłem wykaz wszystkich stacji RTV zawierający współżędne i opis wszystkich nadajników znajdujących się na terenie polskii. Dane zostały udostępnione na stronie radiopolska.pl w postaci pliku csv i są dostępne pod adresem http://old.radiopolska.pl/wykaz/lokal2csv.php.
+
+##Modyfikacja danych
+
+Przed dokonaniem importu do bazy danych, musimy przekształcić plik z formatu csv na format json. Aby to zrobić na[pisałem w tym celu program w języku C, który tworzy plik `stacje-nadawcze.json` i następnie konwertuje poszczególne linie pliku csv na odpowiadające mi obiekty json.
+
+Kod programu znajduje się: [tutaj](./zadanie-1d-geoparser).
