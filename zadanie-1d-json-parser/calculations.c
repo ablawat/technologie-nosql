@@ -31,6 +31,7 @@ json_object * geojson_create(transmitter_t *transmitter)
 {
     json_object *geojson = json_object_new_object();
     json_object *json1, *json2, *json3;
+    double coordinate;
     
     json1 = json_object_new_string("Feature");
     json_object_object_add(geojson, "type", json1);
@@ -41,10 +42,12 @@ json_object * geojson_create(transmitter_t *transmitter)
     
     json2 = json_object_new_array();
     
-    json3 = json_object_new_string(transmitter -> value_longitude);
+    coordinate  = strtod(transmitter -> value_longitude, NULL);
+    json3 = json_object_new_double(coordinate);
     json_object_array_add(json2, json3);
     
-    json3 = json_object_new_string(transmitter -> value_latitude);
+    coordinate = strtod(transmitter -> value_latitude, NULL);
+    json3 = json_object_new_double(coordinate);
     json_object_array_add(json2, json3);
     
     json_object_object_add(json1, "coordinates", json2);

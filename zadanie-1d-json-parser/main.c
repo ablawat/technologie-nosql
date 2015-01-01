@@ -6,11 +6,11 @@
 int main()
 {
     char in_file_name[]  = "../data/radiopolska_obiekty.csv";
-    char out_file_name[] = "../data/stacje-nadawcze.json";
+    char out_file_name[] = "../data/stations.json";
     
     transmitter_t *transmitter;
     
-    char line_buffer[20 * 1024];
+    char line_buffer[2 * 1024];
     
     FILE *in_file;
     FILE *out_file;
@@ -40,7 +40,7 @@ int main()
     int32_t i = 0;
     do
     {
-        read_result = fgets(line_buffer, 20 * 1024, in_file);
+        read_result = fgets(line_buffer, 2 * 1024, in_file);
         
         if (read_result != NULL)
         {
