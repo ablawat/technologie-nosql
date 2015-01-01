@@ -1,0 +1,7 @@
+{ "type": "FeatureCollection", "features": [
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "18.68972", "52.8825" ] }, "properties": { "name": "RTV: Aleksandrow Kujawski *Komin Budkrusz*" } },
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.3625", "49.89583" ] }, "properties": { "name": "RTV: Andrychow *Wieprz*" } },
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "19.33778", "49.85194" ] }, "properties": { "name": "RTV: Andrychow *Wieza Cisnien*" } },
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ "22.98611", "53.83444" ] }, "properties": { "name": "RTV: Augustow *Komin MPEC GIGA*" } }
+]
+}
