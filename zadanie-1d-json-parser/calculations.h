@@ -10,6 +10,6 @@ typedef struct transmitter
 transmitter_t;
 
 transmitter_t *  transmitter_create  (char *csv_line, char *delimiter);
-json_object *    geojson_create      (transmitter_t *transmitter);
+json_object *    json_create         (transmitter_t *transmitter);
 
 #endif

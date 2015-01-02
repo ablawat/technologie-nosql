@@ -17,7 +17,7 @@ int main()
     
     json_object *json;
     
-    const char *geojson_str;
+    const char *json_str;
     char *read_result;
     
     
@@ -37,7 +37,7 @@ int main()
         return -1;
     }
     
-    int32_t i = 0;
+    
     do
     {
         read_result = fgets(line_buffer, 2 * 1024, in_file);
@@ -48,11 +48,11 @@ int main()
             
             transmitter = transmitter_create(line_buffer, ",");
             
-            json = geojson_create(transmitter);
+            json = json_create(transmitter);
             
-            geojson_str = json_object_to_json_string(json);
+            json_str = json_object_to_json_string(json);
             
-            fputs(geojson_str, out_file);
+            fputs(json_str, out_file);
             fputc(10, out_file);
             
             json_object_put(json);

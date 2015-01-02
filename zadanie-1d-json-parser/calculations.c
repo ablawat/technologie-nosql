@@ -27,14 +27,14 @@ transmitter_t * transmitter_create(char *csv_line, char *delimiter)
     return transmitter;
 }
 
-json_object * geojson_create(transmitter_t *transmitter)
+json_object * json_create(transmitter_t *transmitter)
 {
-    json_object *geojson = json_object_new_object();
+    json_object *json_transmitter = json_object_new_object();
     json_object *json1, *json2, *json3;
     double coordinate;
     
     json1 = json_object_new_string("Feature");
-    json_object_object_add(geojson, "type", json1);
+    json_object_object_add(json_transmitter, "type", json1);
     
     json1 = json_object_new_object();
     json2 = json_object_new_string("Point");
@@ -52,13 +52,13 @@ json_object * geojson_create(transmitter_t *transmitter)
     
     json_object_object_add(json1, "coordinates", json2);
     
-    json_object_object_add(geojson, "geometry", json1);
+    json_object_object_add(json_transmitter, "geometry", json1);
     
     json1 = json_object_new_object();       
     json2 = json_object_new_string(transmitter -> value_name);
     json_object_object_add(json1, "name", json2);
     
-    json_object_object_add(geojson, "properties", json1);
+    json_object_object_add(json_transmitter, "properties", json1);
     
-    return geojson;
+    return json_transmitter;
 }
