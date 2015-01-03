@@ -163,8 +163,7 @@ Kod programu znajduje się: [tutaj](./zadanie-1d-json-parser).
 Przykładowy rekord pliku `stations.json`:
 
 ```json
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ 18.689720, 52.882500 ] }, "properties": { "name": "RTV:
- Aleksandrow Kujawski *Komin Budkrusz*" } }
+{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ 18.689720, 52.882500 ] }, "properties": { "name": "RTV: Aleksandrow Kujawski *Komin Budkrusz*" } }
 ```
 
 ##Importowanie danych do MongoDB
@@ -192,6 +191,18 @@ sys     0m0.021s
 
 Całkowity czas trwania importu do bazy trwał około 425 milisekund.
 
+##Zapytania
+
+Aby poprawnie wykonać zapytania należy zalogować się do bazy i dodać geo-index do kolekcji `places`. Można to zrobić poleceniem:
+
+```sh
+db.places.ensureIndex({"geometry" : "2dsphere"})
+```
+
+Napisałem program w języku C, który automatycznie łączy się z bazą danych, wykonuje zapytania i zapisuje wyniki poszczególnych zapytań do odpowiednich plików w formacie `geojson`, które można bezpośrednio wyświetlić jako mapki.
+
+Kod programu znajduje się: [tutaj](./zadanie-1d-geo-queries).
+
 ##Zapytanie 1
 
 Wzystkie nadajniki znajdujące się w odległości do 100km od Warszawy.
@@ -202,7 +213,7 @@ Wzystkie nadajniki znajdujące się w odległości do 100km od Warszawy.
         $near: {
             $geometry: {
                 type: "Point",
-                coordinates: [ 21.000366, 52.231163]
+                coordinates: [ 21.020, 52.259 ]
             },
             $maxDistance: 100000
         }
@@ -210,4 +221,25 @@ Wzystkie nadajniki znajdujące się w odległości do 100km od Warszawy.
 }
 ```
 
-Mapa znajduje się: [tutaj](./data).
+Mapa znajduje się: [tutaj](./data/query-1.geojson).
+
+##Zapytanie 2
+
+Wzystkie nadajniki znajdujące się w odległości od 100km do 300km od Gdańska.
+
+```json
+{
+    geometry: {
+        $near: {
+            $geometry: {
+                type: "Point",
+                coordinates: [ 18.639, 54.360 ]
+            },
+            $minDistance: 100000,
+            $maxDistance: 300000
+        }
+    }
+}
+```
+
+Mapa znajduje się: [tutaj](./data/query-2.geojson).
