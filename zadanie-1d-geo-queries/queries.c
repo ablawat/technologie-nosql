@@ -1,4 +1,5 @@
 #include <bson.h>
+#include "queries.h"
 
 bson_t * bson_query1_create()
 {
@@ -48,5 +49,37 @@ bson_t * bson_query2_create()
 
     bson_append_document(bson_query, "geometry", -1, bson2);
 
+    return bson_query;
+}
+
+bson_t * bson_query3_create(point_t *point, size_t point_num)
+{
+    bson_t *bson_query = bson_new();
+    bson_t *bson1, *bson2;
+    
+    char str_buffer[16];
+    int32_t i;
+
+    bson1 = bson_new();
+    
+    for (i = 0; i < point_num; i++)
+    {
+        bson2 = bson_new();
+        
+        bson_append_double(bson2, "0", -1, point[i].longitude);
+        bson_append_double(bson2, "1", -1, point[i].latitude);
+        
+        sprintf(str_buffer, "%d", i);
+        bson_append_array(bson1, str_buffer, -1, bson2);
+    }
+    
+    bson2 = bson_new();
+    bson_append_array(bson2, "$polygon", -1, bson1);
+    
+    bson1 = bson_new();
+    bson_append_document(bson1, "$geoWithin", -1, bson2);
+    
+    bson_append_document(bson_query, "geometry", -1, bson1);
+    
     return bson_query;
 }
