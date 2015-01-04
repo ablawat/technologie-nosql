@@ -152,7 +152,7 @@ Wyszukać w sieci dane zawierające obiekty GeoJSON. Następnie dane zapisać w 
 
 ##Dane
 
-W sieci znalazłem wykaz wszystkich stacji RTV zawierający współżędne i opis wszystkich nadajników znajdujących się na terenie polski. Dane zostały udostępnione na stronie http://radiopolska.pl w postaci pliku csv i są dostępne pod adresem http://old.radiopolska.pl/wykaz/lokal2csv.php.
+W sieci znalazłem wykaz wszystkich stacji RTV zawierający współrzędne i opis wszystkich nadajników znajdujących się na terenie polski. Dane zostały udostępnione na stronie http://radiopolska.pl w postaci pliku csv i są dostępne pod adresem http://old.radiopolska.pl/wykaz/lokal2csv.php.
 
 ##Modyfikacja danych
 
@@ -196,7 +196,7 @@ Całkowity czas trwania importu do bazy trwał około 425 milisekund.
 Aby poprawnie wykonać zapytania należy zalogować się do bazy i dodać geo-index do kolekcji `places`. Można to zrobić poleceniem:
 
 ```sh
-db.places.ensureIndex({"geometry" : "2dsphere"})
+db.places.ensureIndex({ "geometry" : "2dsphere" })
 ```
 
 Napisałem program w języku C, który automatycznie łączy się z bazą danych, wykonuje zapytania i zapisuje wyniki poszczególnych zapytań do odpowiednich plików w formacie `geojson`, które można bezpośrednio wyświetlić jako mapki.
@@ -209,13 +209,16 @@ Wzystkie nadajniki znajdujące się w odległości do 100km od Warszawy.
 
 ```json
 {
-    geometry: {
-        $near: {
-            $geometry: {
-                type: "Point",
-                coordinates: [ 21.020, 52.259 ]
+    "geometry":
+    {
+        "$near":
+        {
+            "$geometry":
+            {
+                "type": "Point",
+                "coordinates": [ 21.020, 52.259 ]
             },
-            $maxDistance: 100000
+            "$maxDistance": 100000
         }
     }
 }
@@ -229,17 +232,47 @@ Wzystkie nadajniki znajdujące się w odległości od 100km do 300km od Gdańska
 
 ```json
 {
-    geometry: {
-        $near: {
-            $geometry: {
-                type: "Point",
-                coordinates: [ 18.639, 54.360 ]
+    "geometry":
+    {
+        "$near":
+        {
+            "$geometry":
+            {
+                "type": "Point",
+                "coordinates": [ 18.639, 54.360 ]
             },
-            $minDistance: 100000,
-            $maxDistance: 300000
+            "$minDistance": 100000,
+            "$maxDistance": 300000
         }
     }
 }
 ```
 
 Mapa znajduje się: [tutaj](./data/query-2.geojson).
+
+##Zapytanie 3
+
+Wzystkie nadajniki znajdujące się w obszarze ograniczonym przez miasta takie jak Kościerzyna, Tczew, Kwidzyn, Świecie, Złotów i Szczecinek.
+
+```json
+{
+    "geometry":
+    {
+        "$geoWithin":
+        {
+            "$polygon":
+            [
+                [ 17.970, 54.130 ],
+                [ 18.779, 54.099 ],
+                [ 18.930, 53.740 ],
+                [ 18.440, 53.400 ],
+                [ 17.030, 53.359 ],
+                [ 16.689, 53.710 ],
+                [ 17.970, 54.130 ]
+            ]
+        }
+    }
+}
+```
+
+Mapa znajduje się: [tutaj](./data/query-3.geojson).
