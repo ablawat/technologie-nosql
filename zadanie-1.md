@@ -252,7 +252,7 @@ Mapa znajduje się: [tutaj](./data/query-2.geojson).
 
 ##Zapytanie 3
 
-Wzystkie nadajniki znajdujące się w obszarze ograniczonym przez miasta takie jak Kościerzyna, Tczew, Kwidzyn, Świecie, Złotów i Szczecinek.
+Wszystkie nadajniki znajdujące się w obszarze ograniczonym przez miasta: Kościerzyna, Tczew, Kwidzyn, Świecie, Złotów i Szczecinek.
 
 ```json
 {
