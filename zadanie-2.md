@@ -67,6 +67,34 @@ Całkowity czas trwania importu do bazy trwał około 40 minut i 24 sekund.
 
 ###Agregacja 1
 
+Polega na pogrupowaniu wszystkich wpisów w bazie względem akcji, zsumowaniu ilości wpisów w każdej grupie i posortowaniu w kolejności malejącej.
+
+####Zapytanie
+
+```json
+{ $group: { _id: "$action", count: { $sum: 1 } } }
+{ $sort : { count: -1 } }
+```
+
+####Wynik
+
+```json
+{ "_id" : "Checkin", "count" : 10958039 }
+{ "_id" : "Liked", "count" : 7664733 }
+{ "_id" : "Disliked", "count" : 469093 }
+{ "_id" : "Favorited", "count" : 288096 }
+{ "_id" : "Unwanted", "count" : 270330 }
+{ "_id" : "Saved", "count" : 101944 }
+{ "_id" : "Said", "count" : 73887 }
+{ "_id" : "Looked", "count" : 2972 }
+{ "_id" : "Comment", "count" : 2150 }
+{ "_id" : null, "count" : 40 }
+{ "_id" : "Reply", "count" : 15 }
+{ "_id" : "LikedComment", "count" : 1 }
+```
+
+###Agregacja 2
+
 Polega na pogrupowaniu wszystkich wpisów w bazie względem id użytkownika, zsumowaniu ilości wpisów w każdej grupie, posortowaniu w kolejności malejącej i ograniczeniu wyniku do 20 pozycji.
 
 ####Zapytanie
@@ -102,7 +130,7 @@ Polega na pogrupowaniu wszystkich wpisów w bazie względem id użytkownika, zsu
 { "_id" : "johnnym2001", "count" : 25249 }
 ```
 
-###Agregacja 2
+###Agregacja 3
 
 Polega na znalezieniu wpisów odnoszących się do filmów, pogrupowaniu względem tytułu, zsumowaniu ilości wpisów w każdej grupie, posortowaniu w kolejności malejącej i ograniczeniu wyniku do 10 pozycji.
 
