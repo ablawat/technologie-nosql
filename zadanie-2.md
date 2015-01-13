@@ -65,7 +65,7 @@ Całkowity czas trwania importu do bazy trwał około 40 minut i 24 sekund.
 
 ##Agregacje
 
-W celu wykonania na bazie danych agregacji, napisałem program w języku C, który automatycznie wysyła odpowiednie zapytania do bazy MongoDB i zwraca ich wynik. Program wykorzystuje sterownik `C MongoDB Driver` oraz bibliotekę `Libbison`.
+W celu wykonania na bazie danych agregacji, napisałem program w języku C, który automatycznie wysyła odpowiednie zapytania do bazy MongoDB i zwraca ich wynik. Program wykorzystuje sterownik `C MongoDB Driver` oraz bibliotekę `Libbson`.
 
 Kod programu znajduje się: [tutaj](./zadanie-2-aggregations)
 

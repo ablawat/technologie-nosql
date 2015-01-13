@@ -25,13 +25,15 @@ int main()
     
     pipeline_queries[0] = bson_pipeline_query1_create();
     pipeline_queries[1] = bson_pipeline_query2_create();
+    pipeline_queries[2] = bson_pipeline_query3_create();
+    pipeline_queries[3] = bson_pipeline_query4_create();
     
     mongoc_init();
     
     client = mongoc_client_new(uri_string);
     collection = mongoc_client_get_collection(client, db_name, collection_name);
     
-    for (i = 0; i < 2; i++)
+    for (i = 0; i < 4; i++)
     {
         query = pipeline_queries[i];
         
