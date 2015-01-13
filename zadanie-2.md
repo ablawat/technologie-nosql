@@ -65,6 +65,10 @@ Całkowity czas trwania importu do bazy trwał około 40 minut i 24 sekund.
 
 ##Agregacje
 
+W celu wykonania na bazie danych agregacji, napisałem program w języku C, który automatycznie wysyła odpowiednie zapytania do bazy MongoDB i zwraca ich wynik. Program wykorzystuje sterownik `C MongoDB Driver oraz bibliotekę `Libbison`.
+
+Kod programu znajduje się: [tutaj](./zadanie-2-aggregations)
+
 ###Agregacja 1
 
 Polega na pogrupowaniu wszystkich wpisów w bazie względem akcji, zsumowaniu ilości wpisów w każdej grupie i posortowaniu w kolejności malejącej.
@@ -92,6 +96,23 @@ Polega na pogrupowaniu wszystkich wpisów w bazie względem akcji, zsumowaniu il
 { "_id" : "Reply", "count" : 15 }
 { "_id" : "LikedComment", "count" : 1 }
 ```
+
+####Tabelka
+
+| Akcja        | Ilość    |
+|:------------:|:--------:|
+| Checkin      | 10958039 |
+| Liked        | 7664733  |
+| Disliked     | 469093   |
+| Favorited    | 288096   |
+| Unwanted     | 270330   |
+| Saved        | 101944   |
+| Said         | 73887    |
+| Looked       | 2972     |
+| Comment      | 2150     |
+| null         | 40       |
+| Reply        | 15       |
+| LikedComment | 1        |
 
 ###Agregacja 2
 
@@ -130,6 +151,31 @@ Polega na pogrupowaniu wszystkich wpisów w bazie względem id użytkownika, zsu
 { "_id" : "johnnym2001", "count" : 25249 }
 ```
 
+####Tabelka
+
+| Użytkownik     | Ilość  |
+|:--------------:|:------:|
+| LukeWilliamss  | 696782 |
+| demi_konti     | 68137  |
+| bangwid        | 59261  |
+| zenofmac       | 56233  |
+| agentdunham    | 55740  |
+| cillax         | 43161  |
+| tamtomo        | 42378  |
+| hblackwood     | 32832  |
+| ellen_turner   | 32239  |
+| husainholic    | 32135  |
+| dollyrasyad    | 31314  |
+| DeniseChinita  | 31263  |
+| Putu_Nitovic   | 29895  |
+| SusantiBharuna | 28706  |
+| zbj            | 28601  |
+| xtrachrisp     | 28282  |
+| carla_moraglia | 27621  |
+| shady2brandals | 27038  |
+| tedi31         | 25403  |
+| johnnym2001    | 25249  |
+
 ###Agregacja 3
 
 Polega na znalezieniu wpisów odnoszących się do filmów, pogrupowaniu względem tytułu, zsumowaniu ilości wpisów w każdej grupie, posortowaniu w kolejności malejącej i ograniczeniu wyniku do 10 pozycji.
@@ -157,3 +203,72 @@ Polega na znalezieniu wpisów odnoszących się do filmów, pogrupowaniu względ
 { "_id" : "The Hangover", "count" : 22709 }
 { "_id" : "Titanic", "count" : 20791 }
 ```
+
+####Tabelka
+
+| Tytuł                                         | Ilość |
+|:---------------------------------------------:|:-----:|
+| The Twilight Saga: Breaking Dawn Part 1       | 87521 |
+| The Hunger Games                              | 79340 |
+| Marvel's The Avengers                         | 64356 |
+| Harry Potter and the Deathly Hallows: Part II | 33680 |
+| The Muppets                                   | 29002 |
+| Captain America: The First Avenger            | 28406 |
+| Avatar                                        | 23238 |
+| Thor                                          | 23207 |
+| The Hangover                                  | 22709 |
+| Titanic                                       | 20791 |
+
+###Agregacja 4
+
+Polega na znalezieniu wpisów odnoszących się do filmów, odfiltrowaniu tych mających pozytywną opinię, pogrupowaniu względem tytułu, zsumowaniu ilości wpisów w każdej grupie, posortowaniu w kolejności malejącej i ograniczeniu wyniku do 15 pozycji.
+
+####Zapytanie
+
+```json
+{ $match: { "modelName": "movies" } }
+{ $match: { "action": "Liked" } }
+{ $group: { _id: "$title", count: { $sum: 1 } } }
+{ $sort : { count: -1 } }
+{ $limit: 15 }
+```
+
+####Wynik
+
+```json
+{ "_id" : "The Hangover", "count" : 18631 }
+{ "_id" : "Avatar", "count" : 16311 }
+{ "_id" : "Monsters, Inc.", "count" : 16256 }
+{ "_id" : "Iron Man", "count" : 14859 }
+{ "_id" : "Toy Story", "count" : 14439 }
+{ "_id" : "Titanic", "count" : 14337 }
+{ "_id" : "Forrest Gump", "count" : 14273 }
+{ "_id" : "Up", "count" : 13604 }
+{ "_id" : "Ratatouille", "count" : 12990 }
+{ "_id" : "Fight Club", "count" : 12669 }
+{ "_id" : "The Incredibles", "count" : 12518 }
+{ "_id" : "Back to the Future", "count" : 12499 }
+{ "_id" : "Pirates of the Caribbean: The Curse of the Black Pearl", "count" : 12364 }
+{ "_id" : "Lord of the Rings: The Return of the King", "count" : 12354 }
+{ "_id" : "The Matrix", "count" : 12325 }
+```
+
+####Tabelka
+
+| Tytuł                                                  | Ilość |
+|:------------------------------------------------------:|:-----:|
+| The Hangover                                           | 18631 |
+| Avatar                                                 | 16311 |
+| Monsters, Inc.                                         | 16256 |
+| Iron Man                                               | 14859 |
+| Toy Story                                              | 14439 |
+| Titanic                                                | 14337 |
+| Forrest Gump                                           | 14273 |
+| Up                                                     | 13604 |
+| Ratatouille                                            | 12990 |
+| Fight Club                                             | 12669 |
+| The Incredibles                                        | 12518 |
+| Back to the Future                                     | 12499 |
+| Pirates of the Caribbean: The Curse of the Black Pearl | 12364 |
+| Lord of the Rings: The Return of the King              | 12354 |
+| The Matrix                                             | 12325 |
