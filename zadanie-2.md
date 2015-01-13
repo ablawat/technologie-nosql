@@ -65,7 +65,7 @@ Całkowity czas trwania importu do bazy trwał około 40 minut i 24 sekund.
 
 ##Agregacje
 
-W celu wykonania na bazie danych agregacji, napisałem program w języku C, który automatycznie wysyła odpowiednie zapytania do bazy MongoDB i zwraca ich wynik. Program wykorzystuje sterownik `C MongoDB Driver oraz bibliotekę `Libbison`.
+W celu wykonania na bazie danych agregacji, napisałem program w języku C, który automatycznie wysyła odpowiednie zapytania do bazy MongoDB i zwraca ich wynik. Program wykorzystuje sterownik `C MongoDB Driver` oraz bibliotekę `Libbison`.
 
 Kod programu znajduje się: [tutaj](./zadanie-2-aggregations)
 
@@ -76,8 +76,8 @@ Polega na pogrupowaniu wszystkich wpisów w bazie względem akcji, zsumowaniu il
 ####Zapytanie
 
 ```json
-{ $group: { _id: "$action", count: { $sum: 1 } } }
-{ $sort : { count: -1 } }
+{ "$group": { "_id": "$action", "count": { "$sum": 1 } } }
+{ "$sort" : { "count": -1 } }
 ```
 
 ####Wynik
@@ -121,9 +121,9 @@ Polega na pogrupowaniu wszystkich wpisów w bazie względem id użytkownika, zsu
 ####Zapytanie
 
 ```json
-{ $group: { _id: "$userId", count: { $sum: 1 } } }
-{ $sort : { count: -1 } }
-{ $limit: 20 }
+{ "$group": { "_id": "$userId", "count": { "$sum": 1 } } }
+{ "$sort" : { "count": -1 } }
+{ "$limit": 20 }
 ```
 
 ####Wynik
@@ -183,10 +183,10 @@ Polega na znalezieniu wpisów odnoszących się do filmów, pogrupowaniu względ
 ####Zapytanie
 
 ```json
-{ $match: { "modelName": "movies" } }
-{ $group: { _id: "$title", count: { $sum: 1 } } }
-{ $sort : { count: -1 } }
-{ $limit: 10 }
+{ "$match": { "modelName": "movies" } }
+{ "$group": { "_id": "$title", "count": { "$sum": 1 } } }
+{ "$sort" : { "count": -1 } }
+{ "$limit": 10 }
 ```
 
 ####Wynik
@@ -226,11 +226,11 @@ Polega na znalezieniu wpisów odnoszących się do filmów, odfiltrowaniu tych m
 ####Zapytanie
 
 ```json
-{ $match: { "modelName": "movies" } }
-{ $match: { "action": "Liked" } }
-{ $group: { _id: "$title", count: { $sum: 1 } } }
-{ $sort : { count: -1 } }
-{ $limit: 15 }
+{ "$match": { "modelName": "movies" } }
+{ "$match": { "action": "Liked" } }
+{ "$group": { "_id": "$title", "count": { "$sum": 1 } } }
+{ "$sort" : { "count": -1 } }
+{ "$limit": 15 }
 ```
 
 ####Wynik
