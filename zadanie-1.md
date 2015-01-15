@@ -154,16 +154,29 @@ Wyszukać w sieci dane zawierające obiekty GeoJSON. Następnie dane zapisać w 
 
 W sieci znalazłem wykaz wszystkich stacji RTV zawierający współrzędne i opis wszystkich nadajników znajdujących się na terenie polski. Dane zostały udostępnione na stronie http://radiopolska.pl w postaci pliku csv i są dostępne pod adresem http://old.radiopolska.pl/wykaz/lokal2csv.php.
 
+Dane znajdują się: [tutaj](./data/radiopolska_obiekty.csv)
+
 ##Modyfikacja danych
 
-Przed dokonaniem importu do bazy danych, musimy przekształcić plik z formatu `csv` na format `json`. Aby to zrobić napisałem w tym celu program w języku C, który konwertuje kolejne linie pliku `radiopolska_obiekty.csv` na odpowiadające mi obiekty `json`, które następnie zapisuje do pliku `stations.json`.
+Przed dokonaniem importu do bazy danych, musimy przekształcić plik z formatu `csv` na format `json`. Aby to zrobić napisałem w tym celu program w języku C, który konwertuje kolejne linie pliku `radiopolska_obiekty.csv` na odpowiadające mi obiekty `json`, które następnie zapisuje do pliku `stations.json`. Nie wykorzystałem wszystkich dostępnych informacji o stacjach nadawczych, dlatego program pomija niekonieczne w tym zadaniu parametry aby uprościć generowane json-y.
 
 Kod programu znajduje się: [tutaj](./zadanie-1d-json-parser).
 
-Przykładowy rekord pliku `stations.json`:
+Przykładowy json stacji nadawczej z pliku `stations.json`:
 
 ```json
-{ "type": "Feature", "geometry": { "type": "Point", "coordinates": [ 18.689720, 52.882500 ] }, "properties": { "name": "RTV: Aleksandrow Kujawski *Komin Budkrusz*" } }
+{
+    "type": "Feature",
+    "geometry":
+    {
+        "type": "Point",
+        "coordinates": [ 18.689720, 52.882500 ]
+    },
+    "properties":
+    {
+        "name": "RTV: Aleksandrow Kujawski *Komin Budkrusz*"
+    }
+}
 ```
 
 ##Importowanie danych do MongoDB
@@ -205,7 +218,7 @@ Kod programu znajduje się: [tutaj](./zadanie-1d-geo-queries).
 
 ##Zapytanie 1
 
-Wzystkie nadajniki znajdujące się w odległości do 100km od Warszawy.
+Znajduje wszystkie stacje nadawcze znajdujące się w odległości do 100km od Warszawy.
 
 ```json
 {
@@ -228,7 +241,7 @@ Mapa znajduje się: [tutaj](./data/query-1.geojson).
 
 ##Zapytanie 2
 
-Wzystkie nadajniki znajdujące się w odległości od 100km do 300km od Gdańska.
+Znajduje wszystkie stacje nadawcze znajdujące się w odległości od 100km do 300km od Gdańska.
 
 ```json
 {
@@ -252,7 +265,7 @@ Mapa znajduje się: [tutaj](./data/query-2.geojson).
 
 ##Zapytanie 3
 
-Wszystkie nadajniki znajdujące się w obszarze ograniczonym przez miasta: Kościerzyna, Tczew, Kwidzyn, Świecie, Złotów i Szczecinek.
+Znajduje wszystkie stacje nadawcze znajdujące się w obszarze ograniczonym przez miasta: Kościerzyna, Tczew, Kwidzyn, Świecie, Złotów i Szczecinek.
 
 ```json
 {
@@ -260,16 +273,49 @@ Wszystkie nadajniki znajdujące się w obszarze ograniczonym przez miasta: Kośc
     {
         "$geoWithin":
         {
-            "$polygon":
-            [
-                [ 17.970, 54.130 ],
-                [ 18.779, 54.099 ],
-                [ 18.930, 53.740 ],
-                [ 18.440, 53.400 ],
-                [ 17.030, 53.359 ],
-                [ 16.689, 53.710 ],
-                [ 17.970, 54.130 ]
-            ]
+            "$geometry":
+            {
+                "type": "Polygon",
+                "coordinates":
+                [
+                    [ 17.970, 54.130 ],
+                    [ 18.779, 54.099 ],
+                    [ 18.930, 53.740 ],
+                    [ 18.440, 53.400 ],
+                    [ 17.030, 53.359 ],
+                    [ 16.689, 53.710 ],
+                    [ 17.970, 54.130 ]
+                ]
+            }
+        }
+    }
+}
+```
+
+Mapa znajduje się: [tutaj](./data/query-3.geojson).
+
+##Zapytanie 4
+
+Znajduje wszystkie stacje nadawcze znajdujące się na linii pomiędzy A a B.
+
+```json
+{
+    "geometry":
+    {
+        "$geoIntersects":
+        {
+            "$geometry":
+            {
+                "type": "LineString",
+                "coordinates":
+                [
+                    [ 17.970, 54.130 ],
+                    [ 18.779, 54.099 ],
+                    [ 18.930, 53.740 ],
+                    [ 16.689, 53.710 ],
+                    [ 17.970, 54.130 ]
+                ]
+            }
         }
     }
 }
