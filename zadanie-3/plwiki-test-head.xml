@@ -1,0 +1,332 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="pl">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>plwiki</dbname>
+    <base>http://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna</base>
+    <generator>MediaWiki 1.25wmf14</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Specjalna</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Dyskusja</namespace>
+      <namespace key="2" case="first-letter">Wikipedysta</namespace>
+      <namespace key="3" case="first-letter">Dyskusja wikipedysty</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Dyskusja Wikipedii</namespace>
+      <namespace key="6" case="first-letter">Plik</namespace>
+      <namespace key="7" case="first-letter">Dyskusja pliku</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Dyskusja MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Szablon</namespace>
+      <namespace key="11" case="first-letter">Dyskusja szablonu</namespace>
+      <namespace key="12" case="first-letter">Pomoc</namespace>
+      <namespace key="13" case="first-letter">Dyskusja pomocy</namespace>
+      <namespace key="14" case="first-letter">Kategoria</namespace>
+      <namespace key="15" case="first-letter">Dyskusja kategorii</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Dyskusja portalu</namespace>
+      <namespace key="102" case="first-letter">Wikiprojekt</namespace>
+      <namespace key="103" case="first-letter">Dyskusja wikiprojektu</namespace>
+      <namespace key="828" case="first-letter">Moduł</namespace>
+      <namespace key="829" case="first-letter">Dyskusja modułu</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>AWK</title>
+    <ns>0</ns>
+    <id>2</id>
+    <revision>
+      <id>40933900</id>
+      <parentid>38565213</parentid>
+      <timestamp>2014-11-12T13:48:35Z</timestamp>
+      <contributor>
+        <username>ToSter</username>
+        <id>70424</id>
+      </contributor>
+      <minor />
+      <comment>[[WP:SK]], drobne techniczne</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve">{{Język programowania infobox
+ |logo =
+ |nazwa = AWK
+ |paradygmat = [[język skryptowy|skryptowy]], [[programowanie proceduralne|proceduralny]], [[Programowanie sterowane zdarzeniami|sterowany zdarzeniami]]
+ |data = [[1977]]
+ |wersja = [http://www.opengroup.org/onlinepubs/000095399/utilities/awk.html IEEE Std 1003.1-2004 (POSIX) / 1985]
+ |twórca = [[Alfred V. Aho|Alfred Aho]], [[Peter J. Weinberger|Peter Weinberger]], [[Brian Kernighan]]
+ |typowanie = brak; ciągi znaków, liczby całkowite i zmiennoprzecinkowe; wyrażenia regularne
+ |implementacje = awk, GNU Awk, mawk, nawk, MKS AWK, Thompson AWK (compiler), Awka (compiler)
+ |system = [[wieloplatformowość|wieloplatformowy]]
+ |www =
+}}
+'''AWK''' – interpretowany [[język programowania]], którego główną funkcją jest wyszukiwanie i przetwarzanie wzorców w [[plik]]ach lub strumieniach danych. Jest także nazwą programu początkowo dostępnego dla [[system operacyjny|systemów operacyjnych]] będących pochodnymi [[Unix|UNIX]]-a, obecnie także na inne platformy.
+
+AWK jest językiem, który w znacznym stopniu wykorzystuje [[tablica asocjacyjna|tablice asocjacyjne]], [[Tekstowy typ danych|stringi]] i [[wyrażenie regularne|wyrażenia regularne]]. Nazwa języka pochodzi od pierwszych liter nazwisk jego autorów [[Alfred V. Aho|Alfreda V. Aho]], [[Peter Weinberger|Petera Weinbergera]] i [[Brian Kernighan|Briana Kernighana]] i czasami jest zapisywana małymi literami oraz odczytywana jako jedno słowo ''awk''.
+
+Definicja języka AWK jest zawarta w [[POSIX]] 1003.2 Command Language And Utilities Standard. Wersja ta jest z kolei oparta na opisie z ''The AWK Programming Language'' napisanym przez Aho, Weinbergera i Kernighana, z dodatkowymi właściwościami zdefiniowanymi w wersji awk z [[System V|SVR4]].
+
+W [[wiersz poleceń|wierszu poleceń]] podaje się opcje dla awk, tekst programu (jeśli nie podano go poprzez opcję &lt;code&gt;-f&lt;/code&gt; lub &lt;code&gt;--file&lt;/code&gt;) i wartości, które mają być udostępnione w predefiniowanych zmiennych &lt;code&gt;ARGC&lt;/code&gt; i &lt;code&gt;ARGV&lt;/code&gt;.
+
+== Struktura programów AWK ==
+&lt;blockquote&gt;
+„AWK jest językiem służącym do przetwarzania plików tekstowych. Plik jest traktowany jako ciąg rekordów, przy czym domyślnie rekordem jest każdy wiersz. Każda linia jest podzielona na pola, więc można traktować pierwsze pole linii jako pierwsze słowo, drugie pole jako drugie słowo itd. Program AWK składa się z sekwencji instrukcji wzorzec-akcja. AWK czyta wejście linia po linii. Każda linia jest przeszukiwana pod kątem wzorców występujących w programie i dla każdego pasującego wzorca wykonywana jest akcja z nim skojarzona.” – Alfred V. Aho&lt;ref&gt;hcodep://www.computerworld.com.au/index.php/id;1726534212;pp;2 The A-Z of Programming Languages: AWK&lt;/ref&gt;
+&lt;/blockquote&gt;
+Program AWK składa się z sekwencji instrukcji wzorzec-akcja oraz opcjonalnych definicji funkcji.
+ ''wzorzec'' { ''instrukcje akcji'' }
+ ''function'' ''nazwa''(''lista parametrów'') { ''instrukcje'' }
+gdzie &lt;code&gt;wzorzec&lt;/code&gt; to zwykle jakieś wyrażenie, a &lt;code&gt;akcja&lt;/code&gt; – lista komend. Wejście dzielone jest na rekordy, domyślnie oddzielone znakiem nowej linii.
+Dla każdego rekordu wejścia awk dokonuje porównania, sprawdzając czy odpowiada on jakiemuś wzorcowi z programu AWK. Jeśli wzorzec będzie odpowiadał rekordowi, zostanie wykonana związana z nim akcja. Wzorce są sprawdzane w kolejności ich pojawienia się w programie. Domyślną akcją jest wypisanie rekordu.
+
+== Komendy i składnia ==
+Na komendy AWK składają się wywołania funkcji, nadawanie wartości zmiennym, obliczenia lub jakaś kombinacja wymienionych zadań. AWK posiada wbudowane wsparcie dla wielu funkcji. Niektóre wersje pozwalają na dynamiczne linkowanie bibliotek, co umożliwia korzystanie z jeszcze większej liczby funkcji.
+Dla uproszczenia nawiasy klamrowe (&lt;code&gt;{}&lt;/code&gt;) w poniższych przykładach zostaną pominięte.
+
+=== &lt;code&gt;print&lt;/code&gt; ===
+Polecenie &lt;code&gt;print&lt;/code&gt; jest używane do wypisywania tekstu. Wyjście jest zawsze zakończone predefiniowanym separatorem rekordów (output record separator (ORS)), który domyślnie jest znakiem nowej linii. Najprostsze zastosowanie polecenia &lt;code&gt;print&lt;/code&gt; to:
+
+; &lt;code&gt;print&lt;/code&gt;
+: Wyświetla zawartość obecnego rekordu.
+W AWK rekordy rozbijane są na ''pola'', które można wyświetlić osobno:
+
+; &lt;code&gt;print $1&lt;/code&gt;
+: Wyświetla pierwsze pole obecnego rekordu.
+
+; &lt;code&gt;print $1, $3&lt;/code&gt;
+: Wyświetla pierwsze i trzecie pole obecnego rekordu oddzielone separatorem pola (output field separator (OFS)) – domyślnie spacją.
+
+Choć zapis pól (&lt;code&gt;$X&lt;/code&gt;) może kojarzyć się z zapisem określającym zmienne (jak np. w [[perl]]u), to jednak określa pola bieżącego rekordu. Ponadto &lt;code&gt;$0&lt;/code&gt; odnosi się do całego rekordu, więc &quot;&lt;code&gt;print&lt;/code&gt;&quot; oraz &quot;&lt;code&gt;print $0&lt;/code&gt;&quot; mają takie samo działanie.
+
+&lt;code&gt;print&lt;/code&gt; pozwala również wyświetlić wynik obliczeń lub wywołania funkcji. Np.
+ print 3+2
+ print foobar(3)
+ print foobar(zmienna)
+ print sin(3-2)
+Wyjście można również przekierować do pliku:
+ print &quot;wyrażenie&quot; &gt; &quot;nazwa pliku&quot;
+Lub do innej komendy przez użycie [[Potok (Unix)|pipe'a]]:
+ print &quot;wyrażenie&quot; | &quot;komenda&quot;
+
+=== Zmienne i tablice ===
+==== Zmienne ====
+Zmienne AWK są dynamiczne — zaczynają istnieć, gdy są po raz pierwszy użyte. Nazwy zmiennych mogą zawierać znaki z zakresu ''[A-Za-z0-9_]'', lecz nie mogą być słowami kluczowymi. Zmienne oraz pola mogą być liczbami (zmiennoprzecinkowymi), łańcuchami lub jednym i drugim naraz. Interpretacja wartości zmiennej zależy od kontekstu. Jeśli jest użyta w wyrażeniu numerycznym, jest interpretowana jako liczba. Natomiast jeśli jest użyta w wyrażeniu łańcuchowym — jest traktowana jak łańcuch.
+
+AWK posiada tablice jednowymiarowe. Symulowane mogą być również tablice wielowymiarowe. Podczas działania programu ustawianych jest kilka predefiniowanych zmiennych opisanych niżej.
+
+==== Zmienne wbudowane ====
+Zmienne wbudowane w AWK to m.in. zmienne określające pola: &lt;code&gt;$1&lt;/code&gt;, &lt;code&gt;$2&lt;/code&gt; itd. Zwracają one wartość lub tekst przechowywany aktualnie w określonym polu rekordu. Poza nimi AWK posiada również inne zmienne:
+{| class=&quot;wikitable&quot;
+! Zmienna
+! Zastosowanie
+|-
+| &lt;code&gt;FILENAME&lt;/code&gt;
+| Zawiera nazwę pliku wejściowego.
+|-
+| &lt;code&gt;FS&lt;/code&gt;
+| Przechowuje separator pól rekordu (field separator). Domyślnie jest to biały znak, czyli spacja lub znak tabulacji. FS można przypisać inną wartość określającą nowy separator.
+|-
+| &lt;code&gt;RS&lt;/code&gt;
+| Przechowuje separator rekordów (record separator). Jako że domyślnie każda linia jest nowym rekordem, domyślna wartość RS to znak nowej linii.
+|-
+| &lt;code&gt;NF&lt;/code&gt;
+| Liczba pól w bieżącym rekordzie wejściowym. Przy pomocy tej zmiennej można odwołać się do ostatniego pola rekordu. W tym celu wystarczy wpisać &lt;code&gt;$NF&lt;/code&gt;
+|-
+|&lt;code&gt;NR&lt;/code&gt;
+| Całkowita liczba odczytanych do tej pory rekordów wejściowych.
+|-
+| &lt;code&gt;OFS&lt;/code&gt;
+| Separator pól wyjściowych (output field separator). Domyślnie jest to spacja.
+|-
+| &lt;code&gt;ORS&lt;/code&gt;
+| Separator rekordów wyjściowych (output record separator), oddzielający drukowane rekordy. Domyślnie jest to nowa linia.
+|-
+| &lt;code&gt;OFMT&lt;/code&gt;
+| Przechowuje format wyjściowy liczb, domyślnie &quot;%.6g&quot;.
+|-
+| &lt;code&gt;SUBSEP&lt;/code&gt;
+| Znak, używany do separacji wielokrotnych indeksów w elementach tablicowych, domyślnie jest to &quot;\034&quot;.
+|}
+
+==== Tablice ====
+Tablice są indeksowane wyrażeniem ujętym w nawiasy kwadratowe (&lt;code&gt;[]&lt;/code&gt;). Jeśli wyrażenie jest listą wyrażeń (''wyrażenie, wyrażenie, ...''), to indeks tablicy jest sklejany z wartości (łańcuchowych) każdego wyrażenia, oddzielonych wartością zmiennej &lt;code&gt;SUBSEP&lt;/code&gt;. Jest tak dlatego, że AWK posiada wyłącznie [[Tablica asocjacyjna|tablice asocjacyjne]], zaś klucze numeryczne pamiętane są jako łańcuchy.
+
+Symulowanie tablic wielowymiarowych polega na sklejaniu poszczególnych indeksów w unikalny łańcuch. Na przykład:
+ i = &quot;A&quot; ; j = &quot;B&quot; ; k = &quot;C&quot;
+ x[i, j, k] = &quot;hello, world\n&quot;
+przypisuje łańcuch &quot;hello, world\n&quot; elementowi tablicy &lt;code&gt;x&lt;/code&gt;, o indeksie będącym łańcuchem &quot;A\034B\034C&quot;.
+
+Jeśli tablica posiada wielokrotne indeksy, można użyć konstrukcji &lt;code&gt;(i, j) in array&lt;/code&gt;. Element można skasować z tablicy przy użyciu polecenia &lt;code&gt;delete&lt;/code&gt;. Poleceniem &lt;code&gt;delete&lt;/code&gt; można się też posłużyć do skasowania całej zawartości tablicy, przez podanie jej nazwy bez indeksu.
+
+=== Funkcje ===
+Funkcje są wykonywane po wywołaniu ich z wyrażeń występujących we wzorcach lub akcjach. Definicja funkcji składa się ze słowa kluczowego &lt;code&gt;function&lt;/code&gt;, jej nazwy, argumentów i ciała. Poniżej znajduje się przykład funkcji:
+ function dodaj_siedem (liczba) {
+   return liczba + 7
+ }
+Tę funkcję można wywołać w następujący sposób:
+ print dodaj_siedem(51)     # zwraca 58
+
+Między nazwą funkcji, a nawiasem otwierającym można wstawić spację jedynie podczas jej deklaracji – w wywołaniu nawias musi stać bezpośrednio po nazwie funkcji. Ma to na celu zapobieżenie niejednoznaczności składni z operatorem [[Konkatenacja#Konkatenacja w programowaniu|konkatenacji]]  (łączenia). Ograniczenie to nie odnosi się do funkcji wbudowanych.
+
+Funkcje mogą posiadać zmienne lokalne. Ich nazwy dodawane są na końcu listy argumentów w definicji funkcji. Jednak ich wartości powinno się pomijać wywołując daną funkcję. Zazwyczaj przed deklaracją zmiennych lokalnych dodaje się kilka [[Znaki niedrukowalne|białych znaków]], by wskazać miejsce, w którym kończą się argumenty funkcji i zaczynają zmienne lokalne.
+
+Zamiast słowa &lt;code&gt;function&lt;/code&gt; można używać słowa &lt;code&gt;funct&lt;/code&gt;.
+
+=== Operatory ===
+Operatory w AWK, w kolejności malejącego priorytetu, to:
+{| class=&quot;wikitable&quot;
+! Operator
+! Znaczenie
+|-
+| &lt;code&gt;(...)&lt;/code&gt;
+| Grupowanie
+|-
+| &lt;code&gt;$&lt;/code&gt;
+| Odniesienie się do pola
+|-
+| &lt;code&gt;++ --&lt;/code&gt;
+| Inkrementuj i dekrementuj, zarówno przedrostkowe i przyrostkowe
+|-
+| &lt;code&gt;^&lt;/code&gt;
+| Potęgowanie (można użyć również **, oraz **= dla operatora przypisania)
+|-
+| &lt;code&gt;+ - !&lt;/code&gt;
+| Jednoargumentowy plus, minus i logiczna negacja
+|-
+| &lt;code&gt;* / %&lt;/code&gt;
+| Mnożenie, dzielenie i [[modulo]]
+|-
+| &lt;code&gt;+ -&lt;/code&gt;
+| Dodawanie i odejmowanie
+|-
+| &lt;code&gt;' ' (odstęp)&lt;/code&gt;
+| Konkatenacja (złączenie) łańcuchów
+|-
+| &lt;code&gt;&lt; &gt; &lt;= &gt;= != ==&lt;/code&gt;
+| Regularne operatory relacyjne
+|-
+| &lt;code&gt;~ !~&lt;/code&gt;
+| Dopasowanie wyrażenia regularnego, dopasowanie zanegowane
+|-
+| &lt;code&gt;in&lt;/code&gt;
+| Przynależność do tablicy
+|-
+| &lt;code&gt;&amp;&amp;&lt;/code&gt;
+| Koniunkcja logiczna AND
+|-
+| &lt;code&gt;&lt;nowiki&gt;||&lt;/nowiki&gt;&lt;/code&gt;
+| Alternatywa logiczna OR
+|-
+| &lt;code&gt;?:&lt;/code&gt;
+| Wyrażenie  warunkowe  z [[C (język programowania)|C]]. Ma ono postać ''wyraż1 ? wyraż2 : wyraż3''. Jeśli wyraż1 jest prawdziwe, to wartością wyrażenia jest ''wyraż2'', w przeciwnym wypadku jest nią ''wyraż3''. Obliczane jest wyłącznie jedno z ''wyraż2'' i ''wyraż3''
+|-
+| &lt;code&gt;= += -= *= /= %= ^=&lt;/code&gt;
+| Przypisanie. Obsługiwane jest zarówno przypisanie absolutne (zmienna = wartość) jak i przypisanie operatorowe (inne formy)
+|}
+
+== Wywołanie programu AWK ==
+Tekst programu czytany jest tak, jakby wszystkie pliki programu zostały połączone ze sobą w całość, przy czym pierwszeństwo mają pliki podane jako argumenty polecenia. Przydaje się to do budowania [[Biblioteka programistyczna|bibliotek]] funkcji AWK, bez konieczności włączania ich do każdego nowego programu AWK, który z nich korzysta. Umożliwia to również łączenie funkcji bibliotecznych z programami z wiersza poleceń. Zmienna środowiskowa &lt;code&gt;AWKPATH&lt;/code&gt; określa ścieżkę przeszukiwania, używaną do znajdowania plików źródłowych podanych w opcji &lt;code&gt;-f&lt;/code&gt;. Jeśli zmienna ta nie istnieje, domyślną ścieżką staje się &lt;code&gt;.:/usr/local/share/awk&lt;/code&gt;. (Faktyczny katalog może być różny, zależnie od tego jak skompilowano i zainstalowano awk). Jeśli nazwa pliku, podana opcji &lt;code&gt;-f&lt;/code&gt; zawiera znak &lt;code&gt;/&lt;/code&gt;, nie jest dokonywane żadne przeszukiwanie ścieżki.
+
+Program AWK wykonywany jest w następującej kolejności:
+# inicjalizacja zmiennych podanych w opcjach &lt;code&gt;-v&lt;/code&gt;,
+# kompilacja do postaci wewnętrznej,
+# wywołanie kodu zawartego w blokach &lt;code&gt;BEGIN&lt;/code&gt; (o ile istnieją),
+# odczytywanie plików podanych w tablicy &lt;code&gt;ARGV&lt;/code&gt;,
+# odczytywanie standardowego wejścia, jeśli pliki nie zostały podane.
+
+Z poziomu wiersza poleceń można także ustawić wartość zmiennej, podając zamiast nazwy pliku ciąg &lt;code&gt;zmienna=wartość&lt;/code&gt;. Ten sposób inicjalizowania zmiennych najbardziej przydaje się do dynamicznego nadawania wartości zmiennym, których AWK używa do określania sposobu, w jaki wejście rozbijane jest na pola i rekordy. Jest też użyteczny do kontroli stanu, jeśli zachodzi potrzeba wielokrotnego czytania danego pliku danych. Jeśli wartość konkretnego elementu &lt;code&gt;ARGV&lt;/code&gt; jest pusta (&quot;&quot;), to awk ją pomija.
+
+== Przykłady zastosowań ==
+=== Hello World ===
+Poniżej znajduje się przykład programu &quot;[[Hello world]]&quot; napisanego w AWK:
+ BEGIN { print &quot;Hello, world!&quot; }
+Niekoniecznie trzeba w tym wypadku pisać na końcu &lt;code&gt;exit&lt;/code&gt;. Jedynym wzorcem jest &lt;code&gt;BEGIN&lt;/code&gt;, więc żadne argumenty z linii komend nie są przetwarzane.
+W niektórych wersjach AWK i niektórych krajach dodanie znaku ''”_“''  przed łańcuchem znaków wypisze go w języku narodowym. Np.
+ BEGIN { print _&quot;Hello, world!&quot; }
+we Francji może wypisać ''bonjour, monde!''.
+
+=== Wypisywanie linii zawierających więcej niż 80 znaków ===
+ length($0) &gt; 80
+
+=== Zliczanie liczby słów ===
+Program liczy liczbę słów na wejściu i wypisuje liczbę słów, linii i znaków podanych na wejściu (podobnie jak [[wc (Unix)|wc]]).
+ {
+     w += NF
+     c += length + 1
+ }
+ END { print NR, w, c }
+Ze względu na brak wzorca w pierwszej linii programu akcja jest wykonywana dla każdego wiersza wejścia.
+
+=== Suma numerów ostatnich słów ===
+ { s += $NF }
+ END { print s + 0 }
+&lt;code&gt;s&lt;/code&gt; jest zwiększane o numer ostatniego słowa w każdym rekordzie.
+Na końcu wejścia wzorzec &lt;code&gt;END&lt;/code&gt; pasuje, więc &lt;code&gt;s&lt;/code&gt; jest wypisywane. Jednak wejście może nie zawierać ani jednej linii. Wtedy, jako że zmiennej &lt;code&gt;s&lt;/code&gt; nie została nadana żadna wartość, będzie to pusty ciąg. Dodanie zera na końcu przy wypisywaniu &lt;code&gt;s&lt;/code&gt; wymusza traktowanie zmiennej tak, jakby zawierała ona liczbę. Dzięki temu nawet, gdy &lt;code&gt;s&lt;/code&gt; jest pustym ciągiem na wyjściu nie będzie pustej linii, lecz &lt;code&gt;0&lt;/code&gt;.
+
+=== Wypisanie określonej liczby pasujących linii wejścia ===
+ $ yes Wikipedia | awk 'NR % 4 == 1, NR % 4 == 3 { printf &quot;%6d  %s\n&quot;, NR, $0 }' | sed 7q
+      1  Wikipedia
+      2  Wikipedia
+      3  Wikipedia
+      5  Wikipedia
+      6  Wikipedia
+      7  Wikipedia
+      9  Wikipedia
+ $
+
+Tutaj komenda [[yes (Unix)|yes]] wypisuje słowo „Wikipedia” tak długo, aż [[Sed (program)|sed]] wykryje, że zostało wypisanych 7 linii. Dalsza część polecenia wypisuje każdą z linii poprzedzoną jej numerem. Wypisywane są tylko linie, których numery dają resztę z dzielenia przez 4 o wartościach od 1 do 3.
+
+=== Obliczanie częstotliwości występowania słów ===
+Program używa [[Tablica asocjacyjna|tablicy asocjacyjnej]]:
+&lt;pre&gt;
+BEGIN {
+    FS=&quot;[^a-zA-Z]+&quot;
+}
+{
+     for (i=1; i&lt;=NF; i++)
+          words[tolower($i)]++
+}
+END {
+    for (i in words)
+         print i, words[i]
+}
+&lt;/pre&gt;
+
+Blok &lt;code&gt;BEGIN&lt;/code&gt; ustawia separator pola na dowolny znak nie będący literą. Warto zauważyć, że separatory mogą być też wyrażeniami regularnymi.
+Następnie następuje akcja wykonywana na każdej linii wejścia: dla każdego pola linii zwiększana jest liczba razy, jaką to słowo (uprzednio zamienione na małe litery) wystąpiło. Na końcu wypisywane są wszystkie słowa wraz z częstotliwościami występowania.
+
+== Samodzielne skrypty AWK ==
+Podobnie jak wiele innych języków skrypt AWK można napisać poprzedzając go znakiem &quot;[[shebang]]&quot;. Dla przykładu komendę &lt;code&gt;hello.awk&lt;/code&gt; wypisującą &quot;Hello, world!&quot; można napisać tworząc plik o nazwie &lt;code&gt;hello.awk&lt;/code&gt; zawierający następujące linijki:
+ #!/usr/bin/awk -f
+ BEGIN { print &quot;Hello, world!&quot; }
+
+Opcja &lt;code&gt;-f&lt;/code&gt; informuje awk, że następny argument to plik, z którego należy przeczytać program. Jest on tam umieszczany przez [[Powłoka systemowa|powłokę]] podczas działania.
+
+{{Przypisy}}
+
+== Zobacz też ==
+* [[sed (program)|sed]]
+* [[perl]]
+* [[polecenia systemu operacyjnego Unix]]
+
+== Linki zewnętrzne ==
+* [http://www.gnu.org/software/gawk/ Strona domowa GNU Awk]
+* [http://gnu.univ.gda.pl/~tomasz/prog/awk/awk-intro/awk-man.html Opis języka AWK]
+* [http://doc.cat-v.org/henry_spencer/amazing_awk_assembler/ The Amazing Awk Assembler] by [[Henry Spencer]].
+* [http://awk.info/ Portal społeczności AWK]
+* [http://www.awk.of.pl/ tutorial awk]
+* [http://www.think-lamp.com/2008/10/awk-a-boon-for-cli-enthusiasts/ AWK &amp;nbsp;–  Become an expert in 60 minutes]
+* {{man|cu|awk|SUS|pacodeern scanning and processing language}}
+* {{man|1|gawk}}
+* [hcodep://www.gnu.org/software/gawk/manual/gawkinet/ Gawkinet]: TCP/IP Internetworking with Gawk
+
+{{Wikibooks|An Awk Primer}}
+
+{{Polecenia Unix}}
+{{Języki programowania}}
+
+{{DEFAULTSORT:Awk}}
+[[Kategoria:Języki skryptowe]]</text>
+      <sha1>6fsbyepqq15mfrk3co2i3ck0o4svz1n</sha1>
+    </revision>
+  </page>
+</mediawiki>
