@@ -117,4 +117,81 @@ Wynik możemy obejrzeć wyświetlając zawartość kolekcji `anagrams`.
 
 ##Wikipedia
 
+Zadanie polega na znalezieniu najczęściej występujących słów w `Wikipedia data PL`. Aby to zrobić należy wypisać wszystkie słowa z tekstów artykułów i zliczyć ilość ich wystąpnień na wszystkich stronach.
+
 ###Dane
+
+Dane dla tego zadania znajdują się w [pliku](http://dumps.wikimedia.org/plwiki/20150116/plwiki-20150116-pages-articles-multistream.xml.bz2). Plik jest w formacie `xml` i zawiera wszystkie informacje o stronach z artykułami. Aby zaimportować takie dane do bazy MongoDB, wymagana jest konwersja pliku do formatu `json`.
+
+Napisałem program w języku C z wykorzystaniem biblioteki `Libxml2` i `Libjson`. Program odczytuje z pliku xml wybrane pola dla każdej strony i zapisuje je do pliku json. Dane w formacie `json` znajdują się w pliku [wikipedia.json](./data/wikipedia.json).
+
+Kod programu znajduje się: [tutaj](./zadanie-3-xml-json-parser).
+
+Przykład jsona reprezentującego pojedynczą stronę z pliku `wikipedia.json`:
+
+```json
+{
+    "id": 1,
+    "text": "<tekst strony>"
+}
+```
+
+###Import
+
+Plik `wikipedia.json` importujemy do bazy danych poleceniem:
+
+```sh
+user@host:~$ time mongoimport -c wikipedia --file wikipedia.json
+connected to: 127.0.0.1
+x
+```
+
+###Czas wykonania
+
+```sh
+real    x
+user    x
+sys     x
+```
+
+Całkowity czas trwania importu do bazy trwał x.
+
+###Map i Reduce
+
+####Kod
+
+```js
+var map = function()
+{
+    var array = this.page.revision.text.tekst.match(/([a-zA-Z]+|[^\x00-\x7F]+)+/g);
+    
+    if (array != null)
+        array.forEach(function(word)
+    {
+        emit(word, 1);
+    });
+};
+
+var reduce = function(key, values)
+{
+    return Array.sum(values);
+};
+
+db.wikipedia.mapReduce( map, reduce, { query: {}, out: "wikipedia-out" })
+```
+
+####Zapytanie
+
+Po zapisaniu powyższego kodu do pliku `zadanie-3-2.js`, wykonujemy zapytanie na bazie danych za pomocą polecenia:
+
+```sh
+user@host:~$ time mongo test zadanie-3-2.js
+MongoDB shell version: 2.6.6
+connecting to: test
+
+real    x
+user    x
+sys     x
+```
+
+Czas trwania zapytania wyniósł około x.

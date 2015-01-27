@@ -30,8 +30,8 @@ xmlNode * find_node(xmlNode *parent, char *node_name)
 
 int main()
 {
-    char in_file_name[]  = "../data/plwiki-test-head.xml";
-    char out_file_name[] = "../data/plwiki.json";
+    char in_file_name[]  = "../data/plwiki-20150116-pages-articles-multistream.xml";
+    char out_file_name[] = "../data/wikipedia.json";
     
     const char *json_str;
     
