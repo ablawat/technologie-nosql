@@ -142,19 +142,17 @@ Plik `wikipedia.json` importujemy do bazy danych poleceniem:
 
 ```sh
 user@host:~$ time mongoimport -c wikipedia --file wikipedia.json
-connected to: 127.0.0.1
-x
 ```
 
 ###Czas wykonania
 
 ```sh
-real    x
-user    x
-sys     x
+real    17m1.005s
+user    3m4.674s
+sys     1m0.234s
 ```
 
-Całkowity czas trwania importu do bazy trwał x.
+Całkowity czas trwania importu do bazy trwał 17 minut.
 
 ###Map i Reduce
 
@@ -189,9 +187,9 @@ user@host:~$ time mongo test zadanie-3-2.js
 MongoDB shell version: 2.6.6
 connecting to: test
 
-real    x
-user    x
-sys     x
+real    13m3.678s
+user    4m5.723s
+sys     0m9.605s
 ```
 
-Czas trwania zapytania wyniósł około x.
+Czas trwania zapytania wyniósł około 13 minut.
